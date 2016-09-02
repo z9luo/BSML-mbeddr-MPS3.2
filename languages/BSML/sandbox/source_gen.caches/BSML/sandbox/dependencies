@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependenciesRoot>
+  <dependency className="BSML.sandbox.Makefile" file="Makefile" />
+  <dependency className="BSML.sandbox.testSandbox" file="testSandbox.c" />
+  <dependency className="BSML.sandbox.testSandbox" file="testSandbox.h" />
+</dependenciesRoot>
+

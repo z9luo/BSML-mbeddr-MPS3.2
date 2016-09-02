@@ -1,0 +1,1244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info>
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.WhileStatement" />
+  <root>
+    <file name="StructureAspectDescriptor.java">
+      <unit at="13,0,127,0" name="BSML.structure.StructureAspectDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:db81e786-b1e9-4de0-bf44-e4204ced8ed5(BSML.structure)/6401416779520902451">
+    <file name="EventLifelineEnum.java">
+      <node id="6401416779520902451" at="13,0,14,0" concept="2" trace="myName" />
+      <node id="6401416779520902451" at="14,27,15,18" concept="6" />
+      <node id="6401416779520902451" at="17,0,18,0" concept="2" trace="myValue" />
+      <node id="6401416779520902451" at="18,45,19,18" concept="1" />
+      <node id="6401416779520902451" at="19,18,20,20" concept="1" />
+      <node id="6401416779520902451" at="22,25,23,19" concept="6" />
+      <node id="6401416779520902451" at="25,36,26,37" concept="6" />
+      <node id="6401416779520902451" at="28,56,29,94" concept="5" />
+      <node id="6401416779520902451" at="29,94,30,65" concept="1" />
+      <node id="6401416779520902451" at="30,65,31,65" concept="1" />
+      <node id="6401416779520902451" at="31,65,32,16" concept="6" />
+      <node id="6401416779520902451" at="34,48,35,32" concept="6" />
+      <node id="6401416779520902451" at="38,24,39,44" concept="6" />
+      <node id="6401416779520902451" at="41,64,42,34" concept="6" />
+      <node id="6401416779520902451" at="44,64,45,34" concept="6" />
+      <node id="6401416779520902451" at="46,5,47,42" concept="6" />
+      <node id="6401416779520902451" at="14,0,17,0" concept="4" trace="getName#()Ljava/lang/String;" />
+      <node id="6401416779520902451" at="22,0,25,0" concept="4" trace="getValue#()I" />
+      <node id="6401416779520902451" at="25,0,28,0" concept="4" trace="getValueAsString#()Ljava/lang/String;" />
+      <node id="6401416779520902451" at="34,0,37,0" concept="7" trace="getDefault#()LBSML/structure/EventLifelineEnum;" />
+      <node id="6401416779520902451" at="37,60,40,5" concept="3" />
+      <node id="6401416779520902451" at="40,5,43,5" concept="3" />
+      <node id="6401416779520902451" at="43,5,46,5" concept="3" />
+      <node id="6401416779520902451" at="18,0,22,0" concept="0" trace="EventLifelineEnum#(Ljava/lang/String;I)V" />
+      <node id="6401416779520902451" at="28,0,34,0" concept="7" trace="getConstants#()Ljava/util/List;" />
+      <node id="6401416779520902451" at="37,0,49,0" concept="7" trace="parseValue#(Ljava/lang/String;)LBSML/structure/EventLifelineEnum;" />
+      <scope id="6401416779520902451" at="14,27,15,18" />
+      <scope id="6401416779520902451" at="22,25,23,19" />
+      <scope id="6401416779520902451" at="25,36,26,37" />
+      <scope id="6401416779520902451" at="34,48,35,32" />
+      <scope id="6401416779520902451" at="38,24,39,44" />
+      <scope id="6401416779520902451" at="41,64,42,34" />
+      <scope id="6401416779520902451" at="44,64,45,34" />
+      <scope id="6401416779520902451" at="18,45,20,20" />
+      <scope id="6401416779520902451" at="14,0,17,0" />
+      <scope id="6401416779520902451" at="22,0,25,0" />
+      <scope id="6401416779520902451" at="25,0,28,0" />
+      <scope id="6401416779520902451" at="34,0,37,0" />
+      <scope id="6401416779520902451" at="18,0,22,0">
+        <var name="name" id="6401416779520902451" />
+        <var name="value" id="6401416779520902451" />
+      </scope>
+      <scope id="6401416779520902451" at="28,56,32,16">
+        <var name="list" id="6401416779520902451" />
+      </scope>
+      <scope id="6401416779520902451" at="28,0,34,0" />
+      <scope id="6401416779520902451" at="37,60,47,42" />
+      <scope id="6401416779520902451" at="37,0,49,0">
+        <var name="value" id="6401416779520902451" />
+      </scope>
+      <unit id="6401416779520902451" at="9,0,50,0" name="BSML.structure.EventLifelineEnum" />
+    </file>
+    <file name="EventLifelineEnum_PropertySupport.java">
+      <node id="6401416779520902451" at="11,24,12,18" concept="6" />
+      <node id="6401416779520902451" at="13,5,14,111" concept="5" />
+      <node id="6401416779520902451" at="15,33,16,52" concept="5" />
+      <node id="6401416779520902451" at="17,45,18,20" concept="6" />
+      <node id="6401416779520902451" at="20,5,21,17" concept="6" />
+      <node id="6401416779520902451" at="24,24,25,18" concept="6" />
+      <node id="6401416779520902451" at="26,5,27,111" concept="5" />
+      <node id="6401416779520902451" at="28,33,29,52" concept="5" />
+      <node id="6401416779520902451" at="30,45,31,43" concept="6" />
+      <node id="6401416779520902451" at="33,5,34,16" concept="6" />
+      <node id="6401416779520902451" at="36,49,37,69" concept="5" />
+      <node id="6401416779520902451" at="38,27,39,32" concept="6" />
+      <node id="6401416779520902451" at="40,5,41,14" concept="6" />
+      <node id="6401416779520902451" at="10,44,13,5" concept="3" />
+      <node id="6401416779520902451" at="16,52,19,7" concept="3" />
+      <node id="6401416779520902451" at="23,47,26,5" concept="3" />
+      <node id="6401416779520902451" at="29,52,32,7" concept="3" />
+      <node id="6401416779520902451" at="37,69,40,5" concept="3" />
+      <node id="6401416779520902451" at="14,111,20,5" concept="8" />
+      <node id="6401416779520902451" at="27,111,33,5" concept="8" />
+      <node id="6401416779520902451" at="36,0,43,0" concept="4" trace="fromInternalValue#(Ljava/lang/String;)Ljava/lang/String;" />
+      <node id="6401416779520902451" at="10,0,23,0" concept="4" trace="canSetValue#(Ljava/lang/String;)Z" />
+      <node id="6401416779520902451" at="23,0,36,0" concept="4" trace="toInternalValue#(Ljava/lang/String;)Ljava/lang/String;" />
+      <scope id="6401416779520902451" at="11,24,12,18" />
+      <scope id="6401416779520902451" at="17,45,18,20" />
+      <scope id="6401416779520902451" at="24,24,25,18" />
+      <scope id="6401416779520902451" at="30,45,31,43" />
+      <scope id="6401416779520902451" at="38,27,39,32" />
+      <scope id="6401416779520902451" at="15,33,19,7">
+        <var name="constant" id="6401416779520902451" />
+      </scope>
+      <scope id="6401416779520902451" at="28,33,32,7">
+        <var name="constant" id="6401416779520902451" />
+      </scope>
+      <scope id="6401416779520902451" at="36,49,41,14">
+        <var name="constant" id="6401416779520902451" />
+      </scope>
+      <scope id="6401416779520902451" at="36,0,43,0">
+        <var name="value" id="6401416779520902451" />
+      </scope>
+      <scope id="6401416779520902451" at="10,44,21,17">
+        <var name="constants" id="6401416779520902451" />
+      </scope>
+      <scope id="6401416779520902451" at="23,47,34,16">
+        <var name="constants" id="6401416779520902451" />
+      </scope>
+      <scope id="6401416779520902451" at="10,0,23,0">
+        <var name="value" id="6401416779520902451" />
+      </scope>
+      <scope id="6401416779520902451" at="23,0,36,0">
+        <var name="value" id="6401416779520902451" />
+      </scope>
+      <unit id="6401416779520902451" at="9,0,44,0" name="BSML.structure.EventLifelineEnum_PropertySupport" />
+    </file>
+  </root>
+  <root nodeRef="r:db81e786-b1e9-4de0-bf44-e4204ced8ed5(BSML.structure)/6401416779520902460">
+    <file name="ConcurrencyEnum.java">
+      <node id="6401416779520902460" at="13,0,14,0" concept="2" trace="myName" />
+      <node id="6401416779520902460" at="14,27,15,18" concept="6" />
+      <node id="6401416779520902460" at="17,0,18,0" concept="2" trace="myValue" />
+      <node id="6401416779520902460" at="18,43,19,18" concept="1" />
+      <node id="6401416779520902460" at="19,18,20,20" concept="1" />
+      <node id="6401416779520902460" at="22,25,23,19" concept="6" />
+      <node id="6401416779520902460" at="25,36,26,37" concept="6" />
+      <node id="6401416779520902460" at="28,54,29,90" concept="5" />
+      <node id="6401416779520902460" at="29,90,30,63" concept="1" />
+      <node id="6401416779520902460" at="30,63,31,63" concept="1" />
+      <node id="6401416779520902460" at="31,63,32,16" concept="6" />
+      <node id="6401416779520902460" at="34,46,35,30" concept="6" />
+      <node id="6401416779520902460" at="38,24,39,42" concept="6" />
+      <node id="6401416779520902460" at="41,62,42,32" concept="6" />
+      <node id="6401416779520902460" at="44,62,45,32" concept="6" />
+      <node id="6401416779520902460" at="46,5,47,40" concept="6" />
+      <node id="6401416779520902460" at="14,0,17,0" concept="4" trace="getName#()Ljava/lang/String;" />
+      <node id="6401416779520902460" at="22,0,25,0" concept="4" trace="getValue#()I" />
+      <node id="6401416779520902460" at="25,0,28,0" concept="4" trace="getValueAsString#()Ljava/lang/String;" />
+      <node id="6401416779520902460" at="34,0,37,0" concept="7" trace="getDefault#()LBSML/structure/ConcurrencyEnum;" />
+      <node id="6401416779520902460" at="37,58,40,5" concept="3" />
+      <node id="6401416779520902460" at="40,5,43,5" concept="3" />
+      <node id="6401416779520902460" at="43,5,46,5" concept="3" />
+      <node id="6401416779520902460" at="18,0,22,0" concept="0" trace="ConcurrencyEnum#(Ljava/lang/String;I)V" />
+      <node id="6401416779520902460" at="28,0,34,0" concept="7" trace="getConstants#()Ljava/util/List;" />
+      <node id="6401416779520902460" at="37,0,49,0" concept="7" trace="parseValue#(Ljava/lang/String;)LBSML/structure/ConcurrencyEnum;" />
+      <scope id="6401416779520902460" at="14,27,15,18" />
+      <scope id="6401416779520902460" at="22,25,23,19" />
+      <scope id="6401416779520902460" at="25,36,26,37" />
+      <scope id="6401416779520902460" at="34,46,35,30" />
+      <scope id="6401416779520902460" at="38,24,39,42" />
+      <scope id="6401416779520902460" at="41,62,42,32" />
+      <scope id="6401416779520902460" at="44,62,45,32" />
+      <scope id="6401416779520902460" at="18,43,20,20" />
+      <scope id="6401416779520902460" at="14,0,17,0" />
+      <scope id="6401416779520902460" at="22,0,25,0" />
+      <scope id="6401416779520902460" at="25,0,28,0" />
+      <scope id="6401416779520902460" at="34,0,37,0" />
+      <scope id="6401416779520902460" at="18,0,22,0">
+        <var name="name" id="6401416779520902460" />
+        <var name="value" id="6401416779520902460" />
+      </scope>
+      <scope id="6401416779520902460" at="28,54,32,16">
+        <var name="list" id="6401416779520902460" />
+      </scope>
+      <scope id="6401416779520902460" at="28,0,34,0" />
+      <scope id="6401416779520902460" at="37,58,47,40" />
+      <scope id="6401416779520902460" at="37,0,49,0">
+        <var name="value" id="6401416779520902460" />
+      </scope>
+      <unit id="6401416779520902460" at="9,0,50,0" name="BSML.structure.ConcurrencyEnum" />
+    </file>
+    <file name="ConcurrencyEnum_PropertySupport.java">
+      <node id="6401416779520902460" at="11,24,12,18" concept="6" />
+      <node id="6401416779520902460" at="13,5,14,107" concept="5" />
+      <node id="6401416779520902460" at="15,33,16,50" concept="5" />
+      <node id="6401416779520902460" at="17,45,18,20" concept="6" />
+      <node id="6401416779520902460" at="20,5,21,17" concept="6" />
+      <node id="6401416779520902460" at="24,24,25,18" concept="6" />
+      <node id="6401416779520902460" at="26,5,27,107" concept="5" />
+      <node id="6401416779520902460" at="28,33,29,50" concept="5" />
+      <node id="6401416779520902460" at="30,45,31,43" concept="6" />
+      <node id="6401416779520902460" at="33,5,34,16" concept="6" />
+      <node id="6401416779520902460" at="36,49,37,65" concept="5" />
+      <node id="6401416779520902460" at="38,27,39,32" concept="6" />
+      <node id="6401416779520902460" at="40,5,41,14" concept="6" />
+      <node id="6401416779520902460" at="10,44,13,5" concept="3" />
+      <node id="6401416779520902460" at="16,50,19,7" concept="3" />
+      <node id="6401416779520902460" at="23,47,26,5" concept="3" />
+      <node id="6401416779520902460" at="29,50,32,7" concept="3" />
+      <node id="6401416779520902460" at="37,65,40,5" concept="3" />
+      <node id="6401416779520902460" at="14,107,20,5" concept="8" />
+      <node id="6401416779520902460" at="27,107,33,5" concept="8" />
+      <node id="6401416779520902460" at="36,0,43,0" concept="4" trace="fromInternalValue#(Ljava/lang/String;)Ljava/lang/String;" />
+      <node id="6401416779520902460" at="10,0,23,0" concept="4" trace="canSetValue#(Ljava/lang/String;)Z" />
+      <node id="6401416779520902460" at="23,0,36,0" concept="4" trace="toInternalValue#(Ljava/lang/String;)Ljava/lang/String;" />
+      <scope id="6401416779520902460" at="11,24,12,18" />
+      <scope id="6401416779520902460" at="17,45,18,20" />
+      <scope id="6401416779520902460" at="24,24,25,18" />
+      <scope id="6401416779520902460" at="30,45,31,43" />
+      <scope id="6401416779520902460" at="38,27,39,32" />
+      <scope id="6401416779520902460" at="15,33,19,7">
+        <var name="constant" id="6401416779520902460" />
+      </scope>
+      <scope id="6401416779520902460" at="28,33,32,7">
+        <var name="constant" id="6401416779520902460" />
+      </scope>
+      <scope id="6401416779520902460" at="36,49,41,14">
+        <var name="constant" id="6401416779520902460" />
+      </scope>
+      <scope id="6401416779520902460" at="36,0,43,0">
+        <var name="value" id="6401416779520902460" />
+      </scope>
+      <scope id="6401416779520902460" at="10,44,21,17">
+        <var name="constants" id="6401416779520902460" />
+      </scope>
+      <scope id="6401416779520902460" at="23,47,34,16">
+        <var name="constants" id="6401416779520902460" />
+      </scope>
+      <scope id="6401416779520902460" at="10,0,23,0">
+        <var name="value" id="6401416779520902460" />
+      </scope>
+      <scope id="6401416779520902460" at="23,0,36,0">
+        <var name="value" id="6401416779520902460" />
+      </scope>
+      <unit id="6401416779520902460" at="9,0,44,0" name="BSML.structure.ConcurrencyEnum_PropertySupport" />
+    </file>
+  </root>
+  <root nodeRef="r:db81e786-b1e9-4de0-bf44-e4204ced8ed5(BSML.structure)/6401416779520902464">
+    <file name="HierPriorityRegionEnum.java">
+      <node id="6401416779520902464" at="14,0,15,0" concept="2" trace="myName" />
+      <node id="6401416779520902464" at="15,27,16,18" concept="6" />
+      <node id="6401416779520902464" at="18,0,19,0" concept="2" trace="myValue" />
+      <node id="6401416779520902464" at="19,50,20,18" concept="1" />
+      <node id="6401416779520902464" at="20,18,21,20" concept="1" />
+      <node id="6401416779520902464" at="23,25,24,19" concept="6" />
+      <node id="6401416779520902464" at="26,36,27,37" concept="6" />
+      <node id="6401416779520902464" at="29,61,30,104" concept="5" />
+      <node id="6401416779520902464" at="30,104,31,70" concept="1" />
+      <node id="6401416779520902464" at="31,70,32,70" concept="1" />
+      <node id="6401416779520902464" at="32,70,33,70" concept="1" />
+      <node id="6401416779520902464" at="33,70,34,16" concept="6" />
+      <node id="6401416779520902464" at="36,53,37,37" concept="6" />
+      <node id="6401416779520902464" at="40,24,41,49" concept="6" />
+      <node id="6401416779520902464" at="43,69,44,39" concept="6" />
+      <node id="6401416779520902464" at="46,69,47,39" concept="6" />
+      <node id="6401416779520902464" at="49,69,50,39" concept="6" />
+      <node id="6401416779520902464" at="51,5,52,47" concept="6" />
+      <node id="6401416779520902464" at="15,0,18,0" concept="4" trace="getName#()Ljava/lang/String;" />
+      <node id="6401416779520902464" at="23,0,26,0" concept="4" trace="getValue#()I" />
+      <node id="6401416779520902464" at="26,0,29,0" concept="4" trace="getValueAsString#()Ljava/lang/String;" />
+      <node id="6401416779520902464" at="36,0,39,0" concept="7" trace="getDefault#()LBSML/structure/HierPriorityRegionEnum;" />
+      <node id="6401416779520902464" at="39,65,42,5" concept="3" />
+      <node id="6401416779520902464" at="42,5,45,5" concept="3" />
+      <node id="6401416779520902464" at="45,5,48,5" concept="3" />
+      <node id="6401416779520902464" at="48,5,51,5" concept="3" />
+      <node id="6401416779520902464" at="19,0,23,0" concept="0" trace="HierPriorityRegionEnum#(Ljava/lang/String;I)V" />
+      <node id="6401416779520902464" at="29,0,36,0" concept="7" trace="getConstants#()Ljava/util/List;" />
+      <node id="6401416779520902464" at="39,0,54,0" concept="7" trace="parseValue#(Ljava/lang/String;)LBSML/structure/HierPriorityRegionEnum;" />
+      <scope id="6401416779520902464" at="15,27,16,18" />
+      <scope id="6401416779520902464" at="23,25,24,19" />
+      <scope id="6401416779520902464" at="26,36,27,37" />
+      <scope id="6401416779520902464" at="36,53,37,37" />
+      <scope id="6401416779520902464" at="40,24,41,49" />
+      <scope id="6401416779520902464" at="43,69,44,39" />
+      <scope id="6401416779520902464" at="46,69,47,39" />
+      <scope id="6401416779520902464" at="49,69,50,39" />
+      <scope id="6401416779520902464" at="19,50,21,20" />
+      <scope id="6401416779520902464" at="15,0,18,0" />
+      <scope id="6401416779520902464" at="23,0,26,0" />
+      <scope id="6401416779520902464" at="26,0,29,0" />
+      <scope id="6401416779520902464" at="36,0,39,0" />
+      <scope id="6401416779520902464" at="19,0,23,0">
+        <var name="name" id="6401416779520902464" />
+        <var name="value" id="6401416779520902464" />
+      </scope>
+      <scope id="6401416779520902464" at="29,61,34,16">
+        <var name="list" id="6401416779520902464" />
+      </scope>
+      <scope id="6401416779520902464" at="29,0,36,0" />
+      <scope id="6401416779520902464" at="39,65,52,47" />
+      <scope id="6401416779520902464" at="39,0,54,0">
+        <var name="value" id="6401416779520902464" />
+      </scope>
+      <unit id="6401416779520902464" at="9,0,55,0" name="BSML.structure.HierPriorityRegionEnum" />
+    </file>
+    <file name="HierPriorityRegionEnum_PropertySupport.java">
+      <node id="6401416779520902464" at="11,24,12,18" concept="6" />
+      <node id="6401416779520902464" at="13,5,14,121" concept="5" />
+      <node id="6401416779520902464" at="15,33,16,57" concept="5" />
+      <node id="6401416779520902464" at="17,45,18,20" concept="6" />
+      <node id="6401416779520902464" at="20,5,21,17" concept="6" />
+      <node id="6401416779520902464" at="24,24,25,18" concept="6" />
+      <node id="6401416779520902464" at="26,5,27,121" concept="5" />
+      <node id="6401416779520902464" at="28,33,29,57" concept="5" />
+      <node id="6401416779520902464" at="30,45,31,43" concept="6" />
+      <node id="6401416779520902464" at="33,5,34,16" concept="6" />
+      <node id="6401416779520902464" at="36,49,37,79" concept="5" />
+      <node id="6401416779520902464" at="38,27,39,32" concept="6" />
+      <node id="6401416779520902464" at="40,5,41,14" concept="6" />
+      <node id="6401416779520902464" at="10,44,13,5" concept="3" />
+      <node id="6401416779520902464" at="16,57,19,7" concept="3" />
+      <node id="6401416779520902464" at="23,47,26,5" concept="3" />
+      <node id="6401416779520902464" at="29,57,32,7" concept="3" />
+      <node id="6401416779520902464" at="37,79,40,5" concept="3" />
+      <node id="6401416779520902464" at="14,121,20,5" concept="8" />
+      <node id="6401416779520902464" at="27,121,33,5" concept="8" />
+      <node id="6401416779520902464" at="36,0,43,0" concept="4" trace="fromInternalValue#(Ljava/lang/String;)Ljava/lang/String;" />
+      <node id="6401416779520902464" at="10,0,23,0" concept="4" trace="canSetValue#(Ljava/lang/String;)Z" />
+      <node id="6401416779520902464" at="23,0,36,0" concept="4" trace="toInternalValue#(Ljava/lang/String;)Ljava/lang/String;" />
+      <scope id="6401416779520902464" at="11,24,12,18" />
+      <scope id="6401416779520902464" at="17,45,18,20" />
+      <scope id="6401416779520902464" at="24,24,25,18" />
+      <scope id="6401416779520902464" at="30,45,31,43" />
+      <scope id="6401416779520902464" at="38,27,39,32" />
+      <scope id="6401416779520902464" at="15,33,19,7">
+        <var name="constant" id="6401416779520902464" />
+      </scope>
+      <scope id="6401416779520902464" at="28,33,32,7">
+        <var name="constant" id="6401416779520902464" />
+      </scope>
+      <scope id="6401416779520902464" at="36,49,41,14">
+        <var name="constant" id="6401416779520902464" />
+      </scope>
+      <scope id="6401416779520902464" at="36,0,43,0">
+        <var name="value" id="6401416779520902464" />
+      </scope>
+      <scope id="6401416779520902464" at="10,44,21,17">
+        <var name="constants" id="6401416779520902464" />
+      </scope>
+      <scope id="6401416779520902464" at="23,47,34,16">
+        <var name="constants" id="6401416779520902464" />
+      </scope>
+      <scope id="6401416779520902464" at="10,0,23,0">
+        <var name="value" id="6401416779520902464" />
+      </scope>
+      <scope id="6401416779520902464" at="23,0,36,0">
+        <var name="value" id="6401416779520902464" />
+      </scope>
+      <unit id="6401416779520902464" at="9,0,44,0" name="BSML.structure.HierPriorityRegionEnum_PropertySupport" />
+    </file>
+  </root>
+  <root nodeRef="r:db81e786-b1e9-4de0-bf44-e4204ced8ed5(BSML.structure)/6401416779520902468">
+    <file name="HierPrioritySchemeEnum.java">
+      <node id="6401416779520902468" at="13,0,14,0" concept="2" trace="myName" />
+      <node id="6401416779520902468" at="14,27,15,18" concept="6" />
+      <node id="6401416779520902468" at="17,0,18,0" concept="2" trace="myValue" />
+      <node id="6401416779520902468" at="18,50,19,18" concept="1" />
+      <node id="6401416779520902468" at="19,18,20,20" concept="1" />
+      <node id="6401416779520902468" at="22,25,23,19" concept="6" />
+      <node id="6401416779520902468" at="25,36,26,37" concept="6" />
+      <node id="6401416779520902468" at="28,61,29,104" concept="5" />
+      <node id="6401416779520902468" at="29,104,30,70" concept="1" />
+      <node id="6401416779520902468" at="30,70,31,70" concept="1" />
+      <node id="6401416779520902468" at="31,70,32,16" concept="6" />
+      <node id="6401416779520902468" at="34,53,35,37" concept="6" />
+      <node id="6401416779520902468" at="38,24,39,49" concept="6" />
+      <node id="6401416779520902468" at="41,69,42,39" concept="6" />
+      <node id="6401416779520902468" at="44,69,45,39" concept="6" />
+      <node id="6401416779520902468" at="46,5,47,47" concept="6" />
+      <node id="6401416779520902468" at="14,0,17,0" concept="4" trace="getName#()Ljava/lang/String;" />
+      <node id="6401416779520902468" at="22,0,25,0" concept="4" trace="getValue#()I" />
+      <node id="6401416779520902468" at="25,0,28,0" concept="4" trace="getValueAsString#()Ljava/lang/String;" />
+      <node id="6401416779520902468" at="34,0,37,0" concept="7" trace="getDefault#()LBSML/structure/HierPrioritySchemeEnum;" />
+      <node id="6401416779520902468" at="37,65,40,5" concept="3" />
+      <node id="6401416779520902468" at="40,5,43,5" concept="3" />
+      <node id="6401416779520902468" at="43,5,46,5" concept="3" />
+      <node id="6401416779520902468" at="18,0,22,0" concept="0" trace="HierPrioritySchemeEnum#(Ljava/lang/String;I)V" />
+      <node id="6401416779520902468" at="28,0,34,0" concept="7" trace="getConstants#()Ljava/util/List;" />
+      <node id="6401416779520902468" at="37,0,49,0" concept="7" trace="parseValue#(Ljava/lang/String;)LBSML/structure/HierPrioritySchemeEnum;" />
+      <scope id="6401416779520902468" at="14,27,15,18" />
+      <scope id="6401416779520902468" at="22,25,23,19" />
+      <scope id="6401416779520902468" at="25,36,26,37" />
+      <scope id="6401416779520902468" at="34,53,35,37" />
+      <scope id="6401416779520902468" at="38,24,39,49" />
+      <scope id="6401416779520902468" at="41,69,42,39" />
+      <scope id="6401416779520902468" at="44,69,45,39" />
+      <scope id="6401416779520902468" at="18,50,20,20" />
+      <scope id="6401416779520902468" at="14,0,17,0" />
+      <scope id="6401416779520902468" at="22,0,25,0" />
+      <scope id="6401416779520902468" at="25,0,28,0" />
+      <scope id="6401416779520902468" at="34,0,37,0" />
+      <scope id="6401416779520902468" at="18,0,22,0">
+        <var name="name" id="6401416779520902468" />
+        <var name="value" id="6401416779520902468" />
+      </scope>
+      <scope id="6401416779520902468" at="28,61,32,16">
+        <var name="list" id="6401416779520902468" />
+      </scope>
+      <scope id="6401416779520902468" at="28,0,34,0" />
+      <scope id="6401416779520902468" at="37,65,47,47" />
+      <scope id="6401416779520902468" at="37,0,49,0">
+        <var name="value" id="6401416779520902468" />
+      </scope>
+      <unit id="6401416779520902468" at="9,0,50,0" name="BSML.structure.HierPrioritySchemeEnum" />
+    </file>
+    <file name="HierPrioritySchemeEnum_PropertySupport.java">
+      <node id="6401416779520902468" at="11,24,12,18" concept="6" />
+      <node id="6401416779520902468" at="13,5,14,121" concept="5" />
+      <node id="6401416779520902468" at="15,33,16,57" concept="5" />
+      <node id="6401416779520902468" at="17,45,18,20" concept="6" />
+      <node id="6401416779520902468" at="20,5,21,17" concept="6" />
+      <node id="6401416779520902468" at="24,24,25,18" concept="6" />
+      <node id="6401416779520902468" at="26,5,27,121" concept="5" />
+      <node id="6401416779520902468" at="28,33,29,57" concept="5" />
+      <node id="6401416779520902468" at="30,45,31,43" concept="6" />
+      <node id="6401416779520902468" at="33,5,34,16" concept="6" />
+      <node id="6401416779520902468" at="36,49,37,79" concept="5" />
+      <node id="6401416779520902468" at="38,27,39,32" concept="6" />
+      <node id="6401416779520902468" at="40,5,41,14" concept="6" />
+      <node id="6401416779520902468" at="10,44,13,5" concept="3" />
+      <node id="6401416779520902468" at="16,57,19,7" concept="3" />
+      <node id="6401416779520902468" at="23,47,26,5" concept="3" />
+      <node id="6401416779520902468" at="29,57,32,7" concept="3" />
+      <node id="6401416779520902468" at="37,79,40,5" concept="3" />
+      <node id="6401416779520902468" at="14,121,20,5" concept="8" />
+      <node id="6401416779520902468" at="27,121,33,5" concept="8" />
+      <node id="6401416779520902468" at="36,0,43,0" concept="4" trace="fromInternalValue#(Ljava/lang/String;)Ljava/lang/String;" />
+      <node id="6401416779520902468" at="10,0,23,0" concept="4" trace="canSetValue#(Ljava/lang/String;)Z" />
+      <node id="6401416779520902468" at="23,0,36,0" concept="4" trace="toInternalValue#(Ljava/lang/String;)Ljava/lang/String;" />
+      <scope id="6401416779520902468" at="11,24,12,18" />
+      <scope id="6401416779520902468" at="17,45,18,20" />
+      <scope id="6401416779520902468" at="24,24,25,18" />
+      <scope id="6401416779520902468" at="30,45,31,43" />
+      <scope id="6401416779520902468" at="38,27,39,32" />
+      <scope id="6401416779520902468" at="15,33,19,7">
+        <var name="constant" id="6401416779520902468" />
+      </scope>
+      <scope id="6401416779520902468" at="28,33,32,7">
+        <var name="constant" id="6401416779520902468" />
+      </scope>
+      <scope id="6401416779520902468" at="36,49,41,14">
+        <var name="constant" id="6401416779520902468" />
+      </scope>
+      <scope id="6401416779520902468" at="36,0,43,0">
+        <var name="value" id="6401416779520902468" />
+      </scope>
+      <scope id="6401416779520902468" at="10,44,21,17">
+        <var name="constants" id="6401416779520902468" />
+      </scope>
+      <scope id="6401416779520902468" at="23,47,34,16">
+        <var name="constants" id="6401416779520902468" />
+      </scope>
+      <scope id="6401416779520902468" at="10,0,23,0">
+        <var name="value" id="6401416779520902468" />
+      </scope>
+      <scope id="6401416779520902468" at="23,0,36,0">
+        <var name="value" id="6401416779520902468" />
+      </scope>
+      <unit id="6401416779520902468" at="9,0,44,0" name="BSML.structure.HierPrioritySchemeEnum_PropertySupport" />
+    </file>
+  </root>
+  <root nodeRef="r:db81e786-b1e9-4de0-bf44-e4204ced8ed5(BSML.structure)/6401416779520902472">
+    <file name="BigStepMaximalityEnum.java">
+      <node id="6401416779520902472" at="14,0,15,0" concept="2" trace="myName" />
+      <node id="6401416779520902472" at="15,27,16,18" concept="6" />
+      <node id="6401416779520902472" at="18,0,19,0" concept="2" trace="myValue" />
+      <node id="6401416779520902472" at="19,49,20,18" concept="1" />
+      <node id="6401416779520902472" at="20,18,21,20" concept="1" />
+      <node id="6401416779520902472" at="23,25,24,19" concept="6" />
+      <node id="6401416779520902472" at="26,36,27,37" concept="6" />
+      <node id="6401416779520902472" at="29,60,30,102" concept="5" />
+      <node id="6401416779520902472" at="30,102,31,69" concept="1" />
+      <node id="6401416779520902472" at="31,69,32,69" concept="1" />
+      <node id="6401416779520902472" at="32,69,33,69" concept="1" />
+      <node id="6401416779520902472" at="33,69,34,16" concept="6" />
+      <node id="6401416779520902472" at="36,52,37,36" concept="6" />
+      <node id="6401416779520902472" at="40,24,41,48" concept="6" />
+      <node id="6401416779520902472" at="43,68,44,38" concept="6" />
+      <node id="6401416779520902472" at="46,68,47,38" concept="6" />
+      <node id="6401416779520902472" at="49,68,50,38" concept="6" />
+      <node id="6401416779520902472" at="51,5,52,46" concept="6" />
+      <node id="6401416779520902472" at="15,0,18,0" concept="4" trace="getName#()Ljava/lang/String;" />
+      <node id="6401416779520902472" at="23,0,26,0" concept="4" trace="getValue#()I" />
+      <node id="6401416779520902472" at="26,0,29,0" concept="4" trace="getValueAsString#()Ljava/lang/String;" />
+      <node id="6401416779520902472" at="36,0,39,0" concept="7" trace="getDefault#()LBSML/structure/BigStepMaximalityEnum;" />
+      <node id="6401416779520902472" at="39,64,42,5" concept="3" />
+      <node id="6401416779520902472" at="42,5,45,5" concept="3" />
+      <node id="6401416779520902472" at="45,5,48,5" concept="3" />
+      <node id="6401416779520902472" at="48,5,51,5" concept="3" />
+      <node id="6401416779520902472" at="19,0,23,0" concept="0" trace="BigStepMaximalityEnum#(Ljava/lang/String;I)V" />
+      <node id="6401416779520902472" at="29,0,36,0" concept="7" trace="getConstants#()Ljava/util/List;" />
+      <node id="6401416779520902472" at="39,0,54,0" concept="7" trace="parseValue#(Ljava/lang/String;)LBSML/structure/BigStepMaximalityEnum;" />
+      <scope id="6401416779520902472" at="15,27,16,18" />
+      <scope id="6401416779520902472" at="23,25,24,19" />
+      <scope id="6401416779520902472" at="26,36,27,37" />
+      <scope id="6401416779520902472" at="36,52,37,36" />
+      <scope id="6401416779520902472" at="40,24,41,48" />
+      <scope id="6401416779520902472" at="43,68,44,38" />
+      <scope id="6401416779520902472" at="46,68,47,38" />
+      <scope id="6401416779520902472" at="49,68,50,38" />
+      <scope id="6401416779520902472" at="19,49,21,20" />
+      <scope id="6401416779520902472" at="15,0,18,0" />
+      <scope id="6401416779520902472" at="23,0,26,0" />
+      <scope id="6401416779520902472" at="26,0,29,0" />
+      <scope id="6401416779520902472" at="36,0,39,0" />
+      <scope id="6401416779520902472" at="19,0,23,0">
+        <var name="name" id="6401416779520902472" />
+        <var name="value" id="6401416779520902472" />
+      </scope>
+      <scope id="6401416779520902472" at="29,60,34,16">
+        <var name="list" id="6401416779520902472" />
+      </scope>
+      <scope id="6401416779520902472" at="29,0,36,0" />
+      <scope id="6401416779520902472" at="39,64,52,46" />
+      <scope id="6401416779520902472" at="39,0,54,0">
+        <var name="value" id="6401416779520902472" />
+      </scope>
+      <unit id="6401416779520902472" at="9,0,55,0" name="BSML.structure.BigStepMaximalityEnum" />
+    </file>
+    <file name="BigStepMaximalityEnum_PropertySupport.java">
+      <node id="6401416779520902472" at="11,24,12,18" concept="6" />
+      <node id="6401416779520902472" at="13,5,14,119" concept="5" />
+      <node id="6401416779520902472" at="15,33,16,56" concept="5" />
+      <node id="6401416779520902472" at="17,45,18,20" concept="6" />
+      <node id="6401416779520902472" at="20,5,21,17" concept="6" />
+      <node id="6401416779520902472" at="24,24,25,18" concept="6" />
+      <node id="6401416779520902472" at="26,5,27,119" concept="5" />
+      <node id="6401416779520902472" at="28,33,29,56" concept="5" />
+      <node id="6401416779520902472" at="30,45,31,43" concept="6" />
+      <node id="6401416779520902472" at="33,5,34,16" concept="6" />
+      <node id="6401416779520902472" at="36,49,37,77" concept="5" />
+      <node id="6401416779520902472" at="38,27,39,32" concept="6" />
+      <node id="6401416779520902472" at="40,5,41,14" concept="6" />
+      <node id="6401416779520902472" at="10,44,13,5" concept="3" />
+      <node id="6401416779520902472" at="16,56,19,7" concept="3" />
+      <node id="6401416779520902472" at="23,47,26,5" concept="3" />
+      <node id="6401416779520902472" at="29,56,32,7" concept="3" />
+      <node id="6401416779520902472" at="37,77,40,5" concept="3" />
+      <node id="6401416779520902472" at="14,119,20,5" concept="8" />
+      <node id="6401416779520902472" at="27,119,33,5" concept="8" />
+      <node id="6401416779520902472" at="36,0,43,0" concept="4" trace="fromInternalValue#(Ljava/lang/String;)Ljava/lang/String;" />
+      <node id="6401416779520902472" at="10,0,23,0" concept="4" trace="canSetValue#(Ljava/lang/String;)Z" />
+      <node id="6401416779520902472" at="23,0,36,0" concept="4" trace="toInternalValue#(Ljava/lang/String;)Ljava/lang/String;" />
+      <scope id="6401416779520902472" at="11,24,12,18" />
+      <scope id="6401416779520902472" at="17,45,18,20" />
+      <scope id="6401416779520902472" at="24,24,25,18" />
+      <scope id="6401416779520902472" at="30,45,31,43" />
+      <scope id="6401416779520902472" at="38,27,39,32" />
+      <scope id="6401416779520902472" at="15,33,19,7">
+        <var name="constant" id="6401416779520902472" />
+      </scope>
+      <scope id="6401416779520902472" at="28,33,32,7">
+        <var name="constant" id="6401416779520902472" />
+      </scope>
+      <scope id="6401416779520902472" at="36,49,41,14">
+        <var name="constant" id="6401416779520902472" />
+      </scope>
+      <scope id="6401416779520902472" at="36,0,43,0">
+        <var name="value" id="6401416779520902472" />
+      </scope>
+      <scope id="6401416779520902472" at="10,44,21,17">
+        <var name="constants" id="6401416779520902472" />
+      </scope>
+      <scope id="6401416779520902472" at="23,47,34,16">
+        <var name="constants" id="6401416779520902472" />
+      </scope>
+      <scope id="6401416779520902472" at="10,0,23,0">
+        <var name="value" id="6401416779520902472" />
+      </scope>
+      <scope id="6401416779520902472" at="23,0,36,0">
+        <var name="value" id="6401416779520902472" />
+      </scope>
+      <unit id="6401416779520902472" at="9,0,44,0" name="BSML.structure.BigStepMaximalityEnum_PropertySupport" />
+    </file>
+  </root>
+  <root nodeRef="r:db81e786-b1e9-4de0-bf44-e4204ced8ed5(BSML.structure)/6401416779520902510">
+    <file name="InEventEnum.java">
+      <node id="6401416779520902510" at="14,0,15,0" concept="2" trace="myName" />
+      <node id="6401416779520902510" at="15,27,16,18" concept="6" />
+      <node id="6401416779520902510" at="18,0,19,0" concept="2" trace="myValue" />
+      <node id="6401416779520902510" at="19,39,20,18" concept="1" />
+      <node id="6401416779520902510" at="20,18,21,20" concept="1" />
+      <node id="6401416779520902510" at="23,25,24,19" concept="6" />
+      <node id="6401416779520902510" at="26,36,27,37" concept="6" />
+      <node id="6401416779520902510" at="29,50,30,82" concept="5" />
+      <node id="6401416779520902510" at="30,82,31,59" concept="1" />
+      <node id="6401416779520902510" at="31,59,32,59" concept="1" />
+      <node id="6401416779520902510" at="32,59,33,59" concept="1" />
+      <node id="6401416779520902510" at="33,59,34,16" concept="6" />
+      <node id="6401416779520902510" at="36,42,37,26" concept="6" />
+      <node id="6401416779520902510" at="40,24,41,38" concept="6" />
+      <node id="6401416779520902510" at="43,58,44,28" concept="6" />
+      <node id="6401416779520902510" at="46,58,47,28" concept="6" />
+      <node id="6401416779520902510" at="49,58,50,28" concept="6" />
+      <node id="6401416779520902510" at="51,5,52,36" concept="6" />
+      <node id="6401416779520902510" at="15,0,18,0" concept="4" trace="getName#()Ljava/lang/String;" />
+      <node id="6401416779520902510" at="23,0,26,0" concept="4" trace="getValue#()I" />
+      <node id="6401416779520902510" at="26,0,29,0" concept="4" trace="getValueAsString#()Ljava/lang/String;" />
+      <node id="6401416779520902510" at="36,0,39,0" concept="7" trace="getDefault#()LBSML/structure/InEventEnum;" />
+      <node id="6401416779520902510" at="39,54,42,5" concept="3" />
+      <node id="6401416779520902510" at="42,5,45,5" concept="3" />
+      <node id="6401416779520902510" at="45,5,48,5" concept="3" />
+      <node id="6401416779520902510" at="48,5,51,5" concept="3" />
+      <node id="6401416779520902510" at="19,0,23,0" concept="0" trace="InEventEnum#(Ljava/lang/String;I)V" />
+      <node id="6401416779520902510" at="29,0,36,0" concept="7" trace="getConstants#()Ljava/util/List;" />
+      <node id="6401416779520902510" at="39,0,54,0" concept="7" trace="parseValue#(Ljava/lang/String;)LBSML/structure/InEventEnum;" />
+      <scope id="6401416779520902510" at="15,27,16,18" />
+      <scope id="6401416779520902510" at="23,25,24,19" />
+      <scope id="6401416779520902510" at="26,36,27,37" />
+      <scope id="6401416779520902510" at="36,42,37,26" />
+      <scope id="6401416779520902510" at="40,24,41,38" />
+      <scope id="6401416779520902510" at="43,58,44,28" />
+      <scope id="6401416779520902510" at="46,58,47,28" />
+      <scope id="6401416779520902510" at="49,58,50,28" />
+      <scope id="6401416779520902510" at="19,39,21,20" />
+      <scope id="6401416779520902510" at="15,0,18,0" />
+      <scope id="6401416779520902510" at="23,0,26,0" />
+      <scope id="6401416779520902510" at="26,0,29,0" />
+      <scope id="6401416779520902510" at="36,0,39,0" />
+      <scope id="6401416779520902510" at="19,0,23,0">
+        <var name="name" id="6401416779520902510" />
+        <var name="value" id="6401416779520902510" />
+      </scope>
+      <scope id="6401416779520902510" at="29,50,34,16">
+        <var name="list" id="6401416779520902510" />
+      </scope>
+      <scope id="6401416779520902510" at="29,0,36,0" />
+      <scope id="6401416779520902510" at="39,54,52,36" />
+      <scope id="6401416779520902510" at="39,0,54,0">
+        <var name="value" id="6401416779520902510" />
+      </scope>
+      <unit id="6401416779520902510" at="9,0,55,0" name="BSML.structure.InEventEnum" />
+    </file>
+    <file name="InEventEnum_PropertySupport.java">
+      <node id="6401416779520902510" at="11,24,12,18" concept="6" />
+      <node id="6401416779520902510" at="13,5,14,99" concept="5" />
+      <node id="6401416779520902510" at="15,33,16,46" concept="5" />
+      <node id="6401416779520902510" at="17,45,18,20" concept="6" />
+      <node id="6401416779520902510" at="20,5,21,17" concept="6" />
+      <node id="6401416779520902510" at="24,24,25,18" concept="6" />
+      <node id="6401416779520902510" at="26,5,27,99" concept="5" />
+      <node id="6401416779520902510" at="28,33,29,46" concept="5" />
+      <node id="6401416779520902510" at="30,45,31,43" concept="6" />
+      <node id="6401416779520902510" at="33,5,34,16" concept="6" />
+      <node id="6401416779520902510" at="36,49,37,57" concept="5" />
+      <node id="6401416779520902510" at="38,27,39,32" concept="6" />
+      <node id="6401416779520902510" at="40,5,41,14" concept="6" />
+      <node id="6401416779520902510" at="10,44,13,5" concept="3" />
+      <node id="6401416779520902510" at="16,46,19,7" concept="3" />
+      <node id="6401416779520902510" at="23,47,26,5" concept="3" />
+      <node id="6401416779520902510" at="29,46,32,7" concept="3" />
+      <node id="6401416779520902510" at="37,57,40,5" concept="3" />
+      <node id="6401416779520902510" at="14,99,20,5" concept="8" />
+      <node id="6401416779520902510" at="27,99,33,5" concept="8" />
+      <node id="6401416779520902510" at="36,0,43,0" concept="4" trace="fromInternalValue#(Ljava/lang/String;)Ljava/lang/String;" />
+      <node id="6401416779520902510" at="10,0,23,0" concept="4" trace="canSetValue#(Ljava/lang/String;)Z" />
+      <node id="6401416779520902510" at="23,0,36,0" concept="4" trace="toInternalValue#(Ljava/lang/String;)Ljava/lang/String;" />
+      <scope id="6401416779520902510" at="11,24,12,18" />
+      <scope id="6401416779520902510" at="17,45,18,20" />
+      <scope id="6401416779520902510" at="24,24,25,18" />
+      <scope id="6401416779520902510" at="30,45,31,43" />
+      <scope id="6401416779520902510" at="38,27,39,32" />
+      <scope id="6401416779520902510" at="15,33,19,7">
+        <var name="constant" id="6401416779520902510" />
+      </scope>
+      <scope id="6401416779520902510" at="28,33,32,7">
+        <var name="constant" id="6401416779520902510" />
+      </scope>
+      <scope id="6401416779520902510" at="36,49,41,14">
+        <var name="constant" id="6401416779520902510" />
+      </scope>
+      <scope id="6401416779520902510" at="36,0,43,0">
+        <var name="value" id="6401416779520902510" />
+      </scope>
+      <scope id="6401416779520902510" at="10,44,21,17">
+        <var name="constants" id="6401416779520902510" />
+      </scope>
+      <scope id="6401416779520902510" at="23,47,34,16">
+        <var name="constants" id="6401416779520902510" />
+      </scope>
+      <scope id="6401416779520902510" at="10,0,23,0">
+        <var name="value" id="6401416779520902510" />
+      </scope>
+      <scope id="6401416779520902510" at="23,0,36,0">
+        <var name="value" id="6401416779520902510" />
+      </scope>
+      <unit id="6401416779520902510" at="9,0,44,0" name="BSML.structure.InEventEnum_PropertySupport" />
+    </file>
+  </root>
+  <root nodeRef="r:db81e786-b1e9-4de0-bf44-e4204ced8ed5(BSML.structure)/6401416779520902513">
+    <file name="MemoryProtocolEnum.java">
+      <node id="6401416779520902513" at="13,0,14,0" concept="2" trace="myName" />
+      <node id="6401416779520902513" at="14,27,15,18" concept="6" />
+      <node id="6401416779520902513" at="17,0,18,0" concept="2" trace="myValue" />
+      <node id="6401416779520902513" at="18,46,19,18" concept="1" />
+      <node id="6401416779520902513" at="19,18,20,20" concept="1" />
+      <node id="6401416779520902513" at="22,25,23,19" concept="6" />
+      <node id="6401416779520902513" at="25,36,26,37" concept="6" />
+      <node id="6401416779520902513" at="28,57,29,96" concept="5" />
+      <node id="6401416779520902513" at="29,96,30,66" concept="1" />
+      <node id="6401416779520902513" at="30,66,31,66" concept="1" />
+      <node id="6401416779520902513" at="31,66,32,16" concept="6" />
+      <node id="6401416779520902513" at="34,49,35,33" concept="6" />
+      <node id="6401416779520902513" at="38,24,39,45" concept="6" />
+      <node id="6401416779520902513" at="41,65,42,35" concept="6" />
+      <node id="6401416779520902513" at="44,65,45,35" concept="6" />
+      <node id="6401416779520902513" at="46,5,47,43" concept="6" />
+      <node id="6401416779520902513" at="14,0,17,0" concept="4" trace="getName#()Ljava/lang/String;" />
+      <node id="6401416779520902513" at="22,0,25,0" concept="4" trace="getValue#()I" />
+      <node id="6401416779520902513" at="25,0,28,0" concept="4" trace="getValueAsString#()Ljava/lang/String;" />
+      <node id="6401416779520902513" at="34,0,37,0" concept="7" trace="getDefault#()LBSML/structure/MemoryProtocolEnum;" />
+      <node id="6401416779520902513" at="37,61,40,5" concept="3" />
+      <node id="6401416779520902513" at="40,5,43,5" concept="3" />
+      <node id="6401416779520902513" at="43,5,46,5" concept="3" />
+      <node id="6401416779520902513" at="18,0,22,0" concept="0" trace="MemoryProtocolEnum#(Ljava/lang/String;I)V" />
+      <node id="6401416779520902513" at="28,0,34,0" concept="7" trace="getConstants#()Ljava/util/List;" />
+      <node id="6401416779520902513" at="37,0,49,0" concept="7" trace="parseValue#(Ljava/lang/String;)LBSML/structure/MemoryProtocolEnum;" />
+      <scope id="6401416779520902513" at="14,27,15,18" />
+      <scope id="6401416779520902513" at="22,25,23,19" />
+      <scope id="6401416779520902513" at="25,36,26,37" />
+      <scope id="6401416779520902513" at="34,49,35,33" />
+      <scope id="6401416779520902513" at="38,24,39,45" />
+      <scope id="6401416779520902513" at="41,65,42,35" />
+      <scope id="6401416779520902513" at="44,65,45,35" />
+      <scope id="6401416779520902513" at="18,46,20,20" />
+      <scope id="6401416779520902513" at="14,0,17,0" />
+      <scope id="6401416779520902513" at="22,0,25,0" />
+      <scope id="6401416779520902513" at="25,0,28,0" />
+      <scope id="6401416779520902513" at="34,0,37,0" />
+      <scope id="6401416779520902513" at="18,0,22,0">
+        <var name="name" id="6401416779520902513" />
+        <var name="value" id="6401416779520902513" />
+      </scope>
+      <scope id="6401416779520902513" at="28,57,32,16">
+        <var name="list" id="6401416779520902513" />
+      </scope>
+      <scope id="6401416779520902513" at="28,0,34,0" />
+      <scope id="6401416779520902513" at="37,61,47,43" />
+      <scope id="6401416779520902513" at="37,0,49,0">
+        <var name="value" id="6401416779520902513" />
+      </scope>
+      <unit id="6401416779520902513" at="9,0,50,0" name="BSML.structure.MemoryProtocolEnum" />
+    </file>
+    <file name="MemoryProtocolEnum_PropertySupport.java">
+      <node id="6401416779520902513" at="11,24,12,18" concept="6" />
+      <node id="6401416779520902513" at="13,5,14,113" concept="5" />
+      <node id="6401416779520902513" at="15,33,16,53" concept="5" />
+      <node id="6401416779520902513" at="17,45,18,20" concept="6" />
+      <node id="6401416779520902513" at="20,5,21,17" concept="6" />
+      <node id="6401416779520902513" at="24,24,25,18" concept="6" />
+      <node id="6401416779520902513" at="26,5,27,113" concept="5" />
+      <node id="6401416779520902513" at="28,33,29,53" concept="5" />
+      <node id="6401416779520902513" at="30,45,31,43" concept="6" />
+      <node id="6401416779520902513" at="33,5,34,16" concept="6" />
+      <node id="6401416779520902513" at="36,49,37,71" concept="5" />
+      <node id="6401416779520902513" at="38,27,39,32" concept="6" />
+      <node id="6401416779520902513" at="40,5,41,14" concept="6" />
+      <node id="6401416779520902513" at="10,44,13,5" concept="3" />
+      <node id="6401416779520902513" at="16,53,19,7" concept="3" />
+      <node id="6401416779520902513" at="23,47,26,5" concept="3" />
+      <node id="6401416779520902513" at="29,53,32,7" concept="3" />
+      <node id="6401416779520902513" at="37,71,40,5" concept="3" />
+      <node id="6401416779520902513" at="14,113,20,5" concept="8" />
+      <node id="6401416779520902513" at="27,113,33,5" concept="8" />
+      <node id="6401416779520902513" at="36,0,43,0" concept="4" trace="fromInternalValue#(Ljava/lang/String;)Ljava/lang/String;" />
+      <node id="6401416779520902513" at="10,0,23,0" concept="4" trace="canSetValue#(Ljava/lang/String;)Z" />
+      <node id="6401416779520902513" at="23,0,36,0" concept="4" trace="toInternalValue#(Ljava/lang/String;)Ljava/lang/String;" />
+      <scope id="6401416779520902513" at="11,24,12,18" />
+      <scope id="6401416779520902513" at="17,45,18,20" />
+      <scope id="6401416779520902513" at="24,24,25,18" />
+      <scope id="6401416779520902513" at="30,45,31,43" />
+      <scope id="6401416779520902513" at="38,27,39,32" />
+      <scope id="6401416779520902513" at="15,33,19,7">
+        <var name="constant" id="6401416779520902513" />
+      </scope>
+      <scope id="6401416779520902513" at="28,33,32,7">
+        <var name="constant" id="6401416779520902513" />
+      </scope>
+      <scope id="6401416779520902513" at="36,49,41,14">
+        <var name="constant" id="6401416779520902513" />
+      </scope>
+      <scope id="6401416779520902513" at="36,0,43,0">
+        <var name="value" id="6401416779520902513" />
+      </scope>
+      <scope id="6401416779520902513" at="10,44,21,17">
+        <var name="constants" id="6401416779520902513" />
+      </scope>
+      <scope id="6401416779520902513" at="23,47,34,16">
+        <var name="constants" id="6401416779520902513" />
+      </scope>
+      <scope id="6401416779520902513" at="10,0,23,0">
+        <var name="value" id="6401416779520902513" />
+      </scope>
+      <scope id="6401416779520902513" at="23,0,36,0">
+        <var name="value" id="6401416779520902513" />
+      </scope>
+      <unit id="6401416779520902513" at="9,0,44,0" name="BSML.structure.MemoryProtocolEnum_PropertySupport" />
+    </file>
+  </root>
+  <root nodeRef="r:db81e786-b1e9-4de0-bf44-e4204ced8ed5(BSML.structure)/6401416779520902516">
+    <file name="OutEventEnum.java">
+      <node id="6401416779520902516" at="14,0,15,0" concept="2" trace="myName" />
+      <node id="6401416779520902516" at="15,27,16,18" concept="6" />
+      <node id="6401416779520902516" at="18,0,19,0" concept="2" trace="myValue" />
+      <node id="6401416779520902516" at="19,40,20,18" concept="1" />
+      <node id="6401416779520902516" at="20,18,21,20" concept="1" />
+      <node id="6401416779520902516" at="23,25,24,19" concept="6" />
+      <node id="6401416779520902516" at="26,36,27,37" concept="6" />
+      <node id="6401416779520902516" at="29,51,30,84" concept="5" />
+      <node id="6401416779520902516" at="30,84,31,60" concept="1" />
+      <node id="6401416779520902516" at="31,60,32,60" concept="1" />
+      <node id="6401416779520902516" at="32,60,33,60" concept="1" />
+      <node id="6401416779520902516" at="33,60,34,16" concept="6" />
+      <node id="6401416779520902516" at="36,43,37,27" concept="6" />
+      <node id="6401416779520902516" at="40,24,41,39" concept="6" />
+      <node id="6401416779520902516" at="43,59,44,29" concept="6" />
+      <node id="6401416779520902516" at="46,59,47,29" concept="6" />
+      <node id="6401416779520902516" at="49,59,50,29" concept="6" />
+      <node id="6401416779520902516" at="51,5,52,37" concept="6" />
+      <node id="6401416779520902516" at="15,0,18,0" concept="4" trace="getName#()Ljava/lang/String;" />
+      <node id="6401416779520902516" at="23,0,26,0" concept="4" trace="getValue#()I" />
+      <node id="6401416779520902516" at="26,0,29,0" concept="4" trace="getValueAsString#()Ljava/lang/String;" />
+      <node id="6401416779520902516" at="36,0,39,0" concept="7" trace="getDefault#()LBSML/structure/OutEventEnum;" />
+      <node id="6401416779520902516" at="39,55,42,5" concept="3" />
+      <node id="6401416779520902516" at="42,5,45,5" concept="3" />
+      <node id="6401416779520902516" at="45,5,48,5" concept="3" />
+      <node id="6401416779520902516" at="48,5,51,5" concept="3" />
+      <node id="6401416779520902516" at="19,0,23,0" concept="0" trace="OutEventEnum#(Ljava/lang/String;I)V" />
+      <node id="6401416779520902516" at="29,0,36,0" concept="7" trace="getConstants#()Ljava/util/List;" />
+      <node id="6401416779520902516" at="39,0,54,0" concept="7" trace="parseValue#(Ljava/lang/String;)LBSML/structure/OutEventEnum;" />
+      <scope id="6401416779520902516" at="15,27,16,18" />
+      <scope id="6401416779520902516" at="23,25,24,19" />
+      <scope id="6401416779520902516" at="26,36,27,37" />
+      <scope id="6401416779520902516" at="36,43,37,27" />
+      <scope id="6401416779520902516" at="40,24,41,39" />
+      <scope id="6401416779520902516" at="43,59,44,29" />
+      <scope id="6401416779520902516" at="46,59,47,29" />
+      <scope id="6401416779520902516" at="49,59,50,29" />
+      <scope id="6401416779520902516" at="19,40,21,20" />
+      <scope id="6401416779520902516" at="15,0,18,0" />
+      <scope id="6401416779520902516" at="23,0,26,0" />
+      <scope id="6401416779520902516" at="26,0,29,0" />
+      <scope id="6401416779520902516" at="36,0,39,0" />
+      <scope id="6401416779520902516" at="19,0,23,0">
+        <var name="name" id="6401416779520902516" />
+        <var name="value" id="6401416779520902516" />
+      </scope>
+      <scope id="6401416779520902516" at="29,51,34,16">
+        <var name="list" id="6401416779520902516" />
+      </scope>
+      <scope id="6401416779520902516" at="29,0,36,0" />
+      <scope id="6401416779520902516" at="39,55,52,37" />
+      <scope id="6401416779520902516" at="39,0,54,0">
+        <var name="value" id="6401416779520902516" />
+      </scope>
+      <unit id="6401416779520902516" at="9,0,55,0" name="BSML.structure.OutEventEnum" />
+    </file>
+    <file name="OutEventEnum_PropertySupport.java">
+      <node id="6401416779520902516" at="11,24,12,18" concept="6" />
+      <node id="6401416779520902516" at="13,5,14,101" concept="5" />
+      <node id="6401416779520902516" at="15,33,16,47" concept="5" />
+      <node id="6401416779520902516" at="17,45,18,20" concept="6" />
+      <node id="6401416779520902516" at="20,5,21,17" concept="6" />
+      <node id="6401416779520902516" at="24,24,25,18" concept="6" />
+      <node id="6401416779520902516" at="26,5,27,101" concept="5" />
+      <node id="6401416779520902516" at="28,33,29,47" concept="5" />
+      <node id="6401416779520902516" at="30,45,31,43" concept="6" />
+      <node id="6401416779520902516" at="33,5,34,16" concept="6" />
+      <node id="6401416779520902516" at="36,49,37,59" concept="5" />
+      <node id="6401416779520902516" at="38,27,39,32" concept="6" />
+      <node id="6401416779520902516" at="40,5,41,14" concept="6" />
+      <node id="6401416779520902516" at="10,44,13,5" concept="3" />
+      <node id="6401416779520902516" at="16,47,19,7" concept="3" />
+      <node id="6401416779520902516" at="23,47,26,5" concept="3" />
+      <node id="6401416779520902516" at="29,47,32,7" concept="3" />
+      <node id="6401416779520902516" at="37,59,40,5" concept="3" />
+      <node id="6401416779520902516" at="14,101,20,5" concept="8" />
+      <node id="6401416779520902516" at="27,101,33,5" concept="8" />
+      <node id="6401416779520902516" at="36,0,43,0" concept="4" trace="fromInternalValue#(Ljava/lang/String;)Ljava/lang/String;" />
+      <node id="6401416779520902516" at="10,0,23,0" concept="4" trace="canSetValue#(Ljava/lang/String;)Z" />
+      <node id="6401416779520902516" at="23,0,36,0" concept="4" trace="toInternalValue#(Ljava/lang/String;)Ljava/lang/String;" />
+      <scope id="6401416779520902516" at="11,24,12,18" />
+      <scope id="6401416779520902516" at="17,45,18,20" />
+      <scope id="6401416779520902516" at="24,24,25,18" />
+      <scope id="6401416779520902516" at="30,45,31,43" />
+      <scope id="6401416779520902516" at="38,27,39,32" />
+      <scope id="6401416779520902516" at="15,33,19,7">
+        <var name="constant" id="6401416779520902516" />
+      </scope>
+      <scope id="6401416779520902516" at="28,33,32,7">
+        <var name="constant" id="6401416779520902516" />
+      </scope>
+      <scope id="6401416779520902516" at="36,49,41,14">
+        <var name="constant" id="6401416779520902516" />
+      </scope>
+      <scope id="6401416779520902516" at="36,0,43,0">
+        <var name="value" id="6401416779520902516" />
+      </scope>
+      <scope id="6401416779520902516" at="10,44,21,17">
+        <var name="constants" id="6401416779520902516" />
+      </scope>
+      <scope id="6401416779520902516" at="23,47,34,16">
+        <var name="constants" id="6401416779520902516" />
+      </scope>
+      <scope id="6401416779520902516" at="10,0,23,0">
+        <var name="value" id="6401416779520902516" />
+      </scope>
+      <scope id="6401416779520902516" at="23,0,36,0">
+        <var name="value" id="6401416779520902516" />
+      </scope>
+      <unit id="6401416779520902516" at="9,0,44,0" name="BSML.structure.OutEventEnum_PropertySupport" />
+    </file>
+  </root>
+  <root nodeRef="r:db81e786-b1e9-4de0-bf44-e4204ced8ed5(BSML.structure)/6401416779520902519">
+    <file name="PreemptionEnum.java">
+      <node id="6401416779520902519" at="13,0,14,0" concept="2" trace="myName" />
+      <node id="6401416779520902519" at="14,27,15,18" concept="6" />
+      <node id="6401416779520902519" at="17,0,18,0" concept="2" trace="myValue" />
+      <node id="6401416779520902519" at="18,42,19,18" concept="1" />
+      <node id="6401416779520902519" at="19,18,20,20" concept="1" />
+      <node id="6401416779520902519" at="22,25,23,19" concept="6" />
+      <node id="6401416779520902519" at="25,36,26,37" concept="6" />
+      <node id="6401416779520902519" at="28,53,29,88" concept="5" />
+      <node id="6401416779520902519" at="29,88,30,62" concept="1" />
+      <node id="6401416779520902519" at="30,62,31,62" concept="1" />
+      <node id="6401416779520902519" at="31,62,32,16" concept="6" />
+      <node id="6401416779520902519" at="34,45,35,29" concept="6" />
+      <node id="6401416779520902519" at="38,24,39,41" concept="6" />
+      <node id="6401416779520902519" at="41,61,42,31" concept="6" />
+      <node id="6401416779520902519" at="44,61,45,31" concept="6" />
+      <node id="6401416779520902519" at="46,5,47,39" concept="6" />
+      <node id="6401416779520902519" at="14,0,17,0" concept="4" trace="getName#()Ljava/lang/String;" />
+      <node id="6401416779520902519" at="22,0,25,0" concept="4" trace="getValue#()I" />
+      <node id="6401416779520902519" at="25,0,28,0" concept="4" trace="getValueAsString#()Ljava/lang/String;" />
+      <node id="6401416779520902519" at="34,0,37,0" concept="7" trace="getDefault#()LBSML/structure/PreemptionEnum;" />
+      <node id="6401416779520902519" at="37,57,40,5" concept="3" />
+      <node id="6401416779520902519" at="40,5,43,5" concept="3" />
+      <node id="6401416779520902519" at="43,5,46,5" concept="3" />
+      <node id="6401416779520902519" at="18,0,22,0" concept="0" trace="PreemptionEnum#(Ljava/lang/String;I)V" />
+      <node id="6401416779520902519" at="28,0,34,0" concept="7" trace="getConstants#()Ljava/util/List;" />
+      <node id="6401416779520902519" at="37,0,49,0" concept="7" trace="parseValue#(Ljava/lang/String;)LBSML/structure/PreemptionEnum;" />
+      <scope id="6401416779520902519" at="14,27,15,18" />
+      <scope id="6401416779520902519" at="22,25,23,19" />
+      <scope id="6401416779520902519" at="25,36,26,37" />
+      <scope id="6401416779520902519" at="34,45,35,29" />
+      <scope id="6401416779520902519" at="38,24,39,41" />
+      <scope id="6401416779520902519" at="41,61,42,31" />
+      <scope id="6401416779520902519" at="44,61,45,31" />
+      <scope id="6401416779520902519" at="18,42,20,20" />
+      <scope id="6401416779520902519" at="14,0,17,0" />
+      <scope id="6401416779520902519" at="22,0,25,0" />
+      <scope id="6401416779520902519" at="25,0,28,0" />
+      <scope id="6401416779520902519" at="34,0,37,0" />
+      <scope id="6401416779520902519" at="18,0,22,0">
+        <var name="name" id="6401416779520902519" />
+        <var name="value" id="6401416779520902519" />
+      </scope>
+      <scope id="6401416779520902519" at="28,53,32,16">
+        <var name="list" id="6401416779520902519" />
+      </scope>
+      <scope id="6401416779520902519" at="28,0,34,0" />
+      <scope id="6401416779520902519" at="37,57,47,39" />
+      <scope id="6401416779520902519" at="37,0,49,0">
+        <var name="value" id="6401416779520902519" />
+      </scope>
+      <unit id="6401416779520902519" at="9,0,50,0" name="BSML.structure.PreemptionEnum" />
+    </file>
+    <file name="PreemptionEnum_PropertySupport.java">
+      <node id="6401416779520902519" at="11,24,12,18" concept="6" />
+      <node id="6401416779520902519" at="13,5,14,105" concept="5" />
+      <node id="6401416779520902519" at="15,33,16,49" concept="5" />
+      <node id="6401416779520902519" at="17,45,18,20" concept="6" />
+      <node id="6401416779520902519" at="20,5,21,17" concept="6" />
+      <node id="6401416779520902519" at="24,24,25,18" concept="6" />
+      <node id="6401416779520902519" at="26,5,27,105" concept="5" />
+      <node id="6401416779520902519" at="28,33,29,49" concept="5" />
+      <node id="6401416779520902519" at="30,45,31,43" concept="6" />
+      <node id="6401416779520902519" at="33,5,34,16" concept="6" />
+      <node id="6401416779520902519" at="36,49,37,63" concept="5" />
+      <node id="6401416779520902519" at="38,27,39,32" concept="6" />
+      <node id="6401416779520902519" at="40,5,41,14" concept="6" />
+      <node id="6401416779520902519" at="10,44,13,5" concept="3" />
+      <node id="6401416779520902519" at="16,49,19,7" concept="3" />
+      <node id="6401416779520902519" at="23,47,26,5" concept="3" />
+      <node id="6401416779520902519" at="29,49,32,7" concept="3" />
+      <node id="6401416779520902519" at="37,63,40,5" concept="3" />
+      <node id="6401416779520902519" at="14,105,20,5" concept="8" />
+      <node id="6401416779520902519" at="27,105,33,5" concept="8" />
+      <node id="6401416779520902519" at="36,0,43,0" concept="4" trace="fromInternalValue#(Ljava/lang/String;)Ljava/lang/String;" />
+      <node id="6401416779520902519" at="10,0,23,0" concept="4" trace="canSetValue#(Ljava/lang/String;)Z" />
+      <node id="6401416779520902519" at="23,0,36,0" concept="4" trace="toInternalValue#(Ljava/lang/String;)Ljava/lang/String;" />
+      <scope id="6401416779520902519" at="11,24,12,18" />
+      <scope id="6401416779520902519" at="17,45,18,20" />
+      <scope id="6401416779520902519" at="24,24,25,18" />
+      <scope id="6401416779520902519" at="30,45,31,43" />
+      <scope id="6401416779520902519" at="38,27,39,32" />
+      <scope id="6401416779520902519" at="15,33,19,7">
+        <var name="constant" id="6401416779520902519" />
+      </scope>
+      <scope id="6401416779520902519" at="28,33,32,7">
+        <var name="constant" id="6401416779520902519" />
+      </scope>
+      <scope id="6401416779520902519" at="36,49,41,14">
+        <var name="constant" id="6401416779520902519" />
+      </scope>
+      <scope id="6401416779520902519" at="36,0,43,0">
+        <var name="value" id="6401416779520902519" />
+      </scope>
+      <scope id="6401416779520902519" at="10,44,21,17">
+        <var name="constants" id="6401416779520902519" />
+      </scope>
+      <scope id="6401416779520902519" at="23,47,34,16">
+        <var name="constants" id="6401416779520902519" />
+      </scope>
+      <scope id="6401416779520902519" at="10,0,23,0">
+        <var name="value" id="6401416779520902519" />
+      </scope>
+      <scope id="6401416779520902519" at="23,0,36,0">
+        <var name="value" id="6401416779520902519" />
+      </scope>
+      <unit id="6401416779520902519" at="9,0,44,0" name="BSML.structure.PreemptionEnum_PropertySupport" />
+    </file>
+  </root>
+  <root nodeRef="r:db81e786-b1e9-4de0-bf44-e4204ced8ed5(BSML.structure)/6401416779520902530">
+    <file name="PriorityEnum.java">
+      <node id="6401416779520902530" at="13,0,14,0" concept="2" trace="myName" />
+      <node id="6401416779520902530" at="14,27,15,18" concept="6" />
+      <node id="6401416779520902530" at="17,0,18,0" concept="2" trace="myValue" />
+      <node id="6401416779520902530" at="18,40,19,18" concept="1" />
+      <node id="6401416779520902530" at="19,18,20,20" concept="1" />
+      <node id="6401416779520902530" at="22,25,23,19" concept="6" />
+      <node id="6401416779520902530" at="25,36,26,37" concept="6" />
+      <node id="6401416779520902530" at="28,51,29,84" concept="5" />
+      <node id="6401416779520902530" at="29,84,30,60" concept="1" />
+      <node id="6401416779520902530" at="30,60,31,60" concept="1" />
+      <node id="6401416779520902530" at="31,60,32,16" concept="6" />
+      <node id="6401416779520902530" at="34,43,35,27" concept="6" />
+      <node id="6401416779520902530" at="38,24,39,39" concept="6" />
+      <node id="6401416779520902530" at="41,59,42,29" concept="6" />
+      <node id="6401416779520902530" at="44,59,45,29" concept="6" />
+      <node id="6401416779520902530" at="46,5,47,37" concept="6" />
+      <node id="6401416779520902530" at="14,0,17,0" concept="4" trace="getName#()Ljava/lang/String;" />
+      <node id="6401416779520902530" at="22,0,25,0" concept="4" trace="getValue#()I" />
+      <node id="6401416779520902530" at="25,0,28,0" concept="4" trace="getValueAsString#()Ljava/lang/String;" />
+      <node id="6401416779520902530" at="34,0,37,0" concept="7" trace="getDefault#()LBSML/structure/PriorityEnum;" />
+      <node id="6401416779520902530" at="37,55,40,5" concept="3" />
+      <node id="6401416779520902530" at="40,5,43,5" concept="3" />
+      <node id="6401416779520902530" at="43,5,46,5" concept="3" />
+      <node id="6401416779520902530" at="18,0,22,0" concept="0" trace="PriorityEnum#(Ljava/lang/String;I)V" />
+      <node id="6401416779520902530" at="28,0,34,0" concept="7" trace="getConstants#()Ljava/util/List;" />
+      <node id="6401416779520902530" at="37,0,49,0" concept="7" trace="parseValue#(Ljava/lang/String;)LBSML/structure/PriorityEnum;" />
+      <scope id="6401416779520902530" at="14,27,15,18" />
+      <scope id="6401416779520902530" at="22,25,23,19" />
+      <scope id="6401416779520902530" at="25,36,26,37" />
+      <scope id="6401416779520902530" at="34,43,35,27" />
+      <scope id="6401416779520902530" at="38,24,39,39" />
+      <scope id="6401416779520902530" at="41,59,42,29" />
+      <scope id="6401416779520902530" at="44,59,45,29" />
+      <scope id="6401416779520902530" at="18,40,20,20" />
+      <scope id="6401416779520902530" at="14,0,17,0" />
+      <scope id="6401416779520902530" at="22,0,25,0" />
+      <scope id="6401416779520902530" at="25,0,28,0" />
+      <scope id="6401416779520902530" at="34,0,37,0" />
+      <scope id="6401416779520902530" at="18,0,22,0">
+        <var name="name" id="6401416779520902530" />
+        <var name="value" id="6401416779520902530" />
+      </scope>
+      <scope id="6401416779520902530" at="28,51,32,16">
+        <var name="list" id="6401416779520902530" />
+      </scope>
+      <scope id="6401416779520902530" at="28,0,34,0" />
+      <scope id="6401416779520902530" at="37,55,47,37" />
+      <scope id="6401416779520902530" at="37,0,49,0">
+        <var name="value" id="6401416779520902530" />
+      </scope>
+      <unit id="6401416779520902530" at="9,0,50,0" name="BSML.structure.PriorityEnum" />
+    </file>
+    <file name="PriorityEnum_PropertySupport.java">
+      <node id="6401416779520902530" at="11,24,12,18" concept="6" />
+      <node id="6401416779520902530" at="13,5,14,101" concept="5" />
+      <node id="6401416779520902530" at="15,33,16,47" concept="5" />
+      <node id="6401416779520902530" at="17,45,18,20" concept="6" />
+      <node id="6401416779520902530" at="20,5,21,17" concept="6" />
+      <node id="6401416779520902530" at="24,24,25,18" concept="6" />
+      <node id="6401416779520902530" at="26,5,27,101" concept="5" />
+      <node id="6401416779520902530" at="28,33,29,47" concept="5" />
+      <node id="6401416779520902530" at="30,45,31,43" concept="6" />
+      <node id="6401416779520902530" at="33,5,34,16" concept="6" />
+      <node id="6401416779520902530" at="36,49,37,59" concept="5" />
+      <node id="6401416779520902530" at="38,27,39,32" concept="6" />
+      <node id="6401416779520902530" at="40,5,41,14" concept="6" />
+      <node id="6401416779520902530" at="10,44,13,5" concept="3" />
+      <node id="6401416779520902530" at="16,47,19,7" concept="3" />
+      <node id="6401416779520902530" at="23,47,26,5" concept="3" />
+      <node id="6401416779520902530" at="29,47,32,7" concept="3" />
+      <node id="6401416779520902530" at="37,59,40,5" concept="3" />
+      <node id="6401416779520902530" at="14,101,20,5" concept="8" />
+      <node id="6401416779520902530" at="27,101,33,5" concept="8" />
+      <node id="6401416779520902530" at="36,0,43,0" concept="4" trace="fromInternalValue#(Ljava/lang/String;)Ljava/lang/String;" />
+      <node id="6401416779520902530" at="10,0,23,0" concept="4" trace="canSetValue#(Ljava/lang/String;)Z" />
+      <node id="6401416779520902530" at="23,0,36,0" concept="4" trace="toInternalValue#(Ljava/lang/String;)Ljava/lang/String;" />
+      <scope id="6401416779520902530" at="11,24,12,18" />
+      <scope id="6401416779520902530" at="17,45,18,20" />
+      <scope id="6401416779520902530" at="24,24,25,18" />
+      <scope id="6401416779520902530" at="30,45,31,43" />
+      <scope id="6401416779520902530" at="38,27,39,32" />
+      <scope id="6401416779520902530" at="15,33,19,7">
+        <var name="constant" id="6401416779520902530" />
+      </scope>
+      <scope id="6401416779520902530" at="28,33,32,7">
+        <var name="constant" id="6401416779520902530" />
+      </scope>
+      <scope id="6401416779520902530" at="36,49,41,14">
+        <var name="constant" id="6401416779520902530" />
+      </scope>
+      <scope id="6401416779520902530" at="36,0,43,0">
+        <var name="value" id="6401416779520902530" />
+      </scope>
+      <scope id="6401416779520902530" at="10,44,21,17">
+        <var name="constants" id="6401416779520902530" />
+      </scope>
+      <scope id="6401416779520902530" at="23,47,34,16">
+        <var name="constants" id="6401416779520902530" />
+      </scope>
+      <scope id="6401416779520902530" at="10,0,23,0">
+        <var name="value" id="6401416779520902530" />
+      </scope>
+      <scope id="6401416779520902530" at="23,0,36,0">
+        <var name="value" id="6401416779520902530" />
+      </scope>
+      <unit id="6401416779520902530" at="9,0,44,0" name="BSML.structure.PriorityEnum_PropertySupport" />
+    </file>
+  </root>
+  <root nodeRef="r:db81e786-b1e9-4de0-bf44-e4204ced8ed5(BSML.structure)/6401416779520902533">
+    <file name="SmallStepConsistencyEnum.java">
+      <node id="6401416779520902533" at="13,0,14,0" concept="2" trace="myName" />
+      <node id="6401416779520902533" at="14,27,15,18" concept="6" />
+      <node id="6401416779520902533" at="17,0,18,0" concept="2" trace="myValue" />
+      <node id="6401416779520902533" at="18,52,19,18" concept="1" />
+      <node id="6401416779520902533" at="19,18,20,20" concept="1" />
+      <node id="6401416779520902533" at="22,25,23,19" concept="6" />
+      <node id="6401416779520902533" at="25,36,26,37" concept="6" />
+      <node id="6401416779520902533" at="28,63,29,108" concept="5" />
+      <node id="6401416779520902533" at="29,108,30,72" concept="1" />
+      <node id="6401416779520902533" at="30,72,31,72" concept="1" />
+      <node id="6401416779520902533" at="31,72,32,16" concept="6" />
+      <node id="6401416779520902533" at="34,55,35,39" concept="6" />
+      <node id="6401416779520902533" at="38,24,39,51" concept="6" />
+      <node id="6401416779520902533" at="41,71,42,41" concept="6" />
+      <node id="6401416779520902533" at="44,71,45,41" concept="6" />
+      <node id="6401416779520902533" at="46,5,47,49" concept="6" />
+      <node id="6401416779520902533" at="14,0,17,0" concept="4" trace="getName#()Ljava/lang/String;" />
+      <node id="6401416779520902533" at="22,0,25,0" concept="4" trace="getValue#()I" />
+      <node id="6401416779520902533" at="25,0,28,0" concept="4" trace="getValueAsString#()Ljava/lang/String;" />
+      <node id="6401416779520902533" at="34,0,37,0" concept="7" trace="getDefault#()LBSML/structure/SmallStepConsistencyEnum;" />
+      <node id="6401416779520902533" at="37,67,40,5" concept="3" />
+      <node id="6401416779520902533" at="40,5,43,5" concept="3" />
+      <node id="6401416779520902533" at="43,5,46,5" concept="3" />
+      <node id="6401416779520902533" at="18,0,22,0" concept="0" trace="SmallStepConsistencyEnum#(Ljava/lang/String;I)V" />
+      <node id="6401416779520902533" at="28,0,34,0" concept="7" trace="getConstants#()Ljava/util/List;" />
+      <node id="6401416779520902533" at="37,0,49,0" concept="7" trace="parseValue#(Ljava/lang/String;)LBSML/structure/SmallStepConsistencyEnum;" />
+      <scope id="6401416779520902533" at="14,27,15,18" />
+      <scope id="6401416779520902533" at="22,25,23,19" />
+      <scope id="6401416779520902533" at="25,36,26,37" />
+      <scope id="6401416779520902533" at="34,55,35,39" />
+      <scope id="6401416779520902533" at="38,24,39,51" />
+      <scope id="6401416779520902533" at="41,71,42,41" />
+      <scope id="6401416779520902533" at="44,71,45,41" />
+      <scope id="6401416779520902533" at="18,52,20,20" />
+      <scope id="6401416779520902533" at="14,0,17,0" />
+      <scope id="6401416779520902533" at="22,0,25,0" />
+      <scope id="6401416779520902533" at="25,0,28,0" />
+      <scope id="6401416779520902533" at="34,0,37,0" />
+      <scope id="6401416779520902533" at="18,0,22,0">
+        <var name="name" id="6401416779520902533" />
+        <var name="value" id="6401416779520902533" />
+      </scope>
+      <scope id="6401416779520902533" at="28,63,32,16">
+        <var name="list" id="6401416779520902533" />
+      </scope>
+      <scope id="6401416779520902533" at="28,0,34,0" />
+      <scope id="6401416779520902533" at="37,67,47,49" />
+      <scope id="6401416779520902533" at="37,0,49,0">
+        <var name="value" id="6401416779520902533" />
+      </scope>
+      <unit id="6401416779520902533" at="9,0,50,0" name="BSML.structure.SmallStepConsistencyEnum" />
+    </file>
+    <file name="SmallStepConsistencyEnum_PropertySupport.java">
+      <node id="6401416779520902533" at="11,24,12,18" concept="6" />
+      <node id="6401416779520902533" at="13,5,14,125" concept="5" />
+      <node id="6401416779520902533" at="15,33,16,59" concept="5" />
+      <node id="6401416779520902533" at="17,45,18,20" concept="6" />
+      <node id="6401416779520902533" at="20,5,21,17" concept="6" />
+      <node id="6401416779520902533" at="24,24,25,18" concept="6" />
+      <node id="6401416779520902533" at="26,5,27,125" concept="5" />
+      <node id="6401416779520902533" at="28,33,29,59" concept="5" />
+      <node id="6401416779520902533" at="30,45,31,43" concept="6" />
+      <node id="6401416779520902533" at="33,5,34,16" concept="6" />
+      <node id="6401416779520902533" at="36,49,37,83" concept="5" />
+      <node id="6401416779520902533" at="38,27,39,32" concept="6" />
+      <node id="6401416779520902533" at="40,5,41,14" concept="6" />
+      <node id="6401416779520902533" at="10,44,13,5" concept="3" />
+      <node id="6401416779520902533" at="16,59,19,7" concept="3" />
+      <node id="6401416779520902533" at="23,47,26,5" concept="3" />
+      <node id="6401416779520902533" at="29,59,32,7" concept="3" />
+      <node id="6401416779520902533" at="37,83,40,5" concept="3" />
+      <node id="6401416779520902533" at="14,125,20,5" concept="8" />
+      <node id="6401416779520902533" at="27,125,33,5" concept="8" />
+      <node id="6401416779520902533" at="36,0,43,0" concept="4" trace="fromInternalValue#(Ljava/lang/String;)Ljava/lang/String;" />
+      <node id="6401416779520902533" at="10,0,23,0" concept="4" trace="canSetValue#(Ljava/lang/String;)Z" />
+      <node id="6401416779520902533" at="23,0,36,0" concept="4" trace="toInternalValue#(Ljava/lang/String;)Ljava/lang/String;" />
+      <scope id="6401416779520902533" at="11,24,12,18" />
+      <scope id="6401416779520902533" at="17,45,18,20" />
+      <scope id="6401416779520902533" at="24,24,25,18" />
+      <scope id="6401416779520902533" at="30,45,31,43" />
+      <scope id="6401416779520902533" at="38,27,39,32" />
+      <scope id="6401416779520902533" at="15,33,19,7">
+        <var name="constant" id="6401416779520902533" />
+      </scope>
+      <scope id="6401416779520902533" at="28,33,32,7">
+        <var name="constant" id="6401416779520902533" />
+      </scope>
+      <scope id="6401416779520902533" at="36,49,41,14">
+        <var name="constant" id="6401416779520902533" />
+      </scope>
+      <scope id="6401416779520902533" at="36,0,43,0">
+        <var name="value" id="6401416779520902533" />
+      </scope>
+      <scope id="6401416779520902533" at="10,44,21,17">
+        <var name="constants" id="6401416779520902533" />
+      </scope>
+      <scope id="6401416779520902533" at="23,47,34,16">
+        <var name="constants" id="6401416779520902533" />
+      </scope>
+      <scope id="6401416779520902533" at="10,0,23,0">
+        <var name="value" id="6401416779520902533" />
+      </scope>
+      <scope id="6401416779520902533" at="23,0,36,0">
+        <var name="value" id="6401416779520902533" />
+      </scope>
+      <unit id="6401416779520902533" at="9,0,44,0" name="BSML.structure.SmallStepConsistencyEnum_PropertySupport" />
+    </file>
+  </root>
+</debug-info>
+

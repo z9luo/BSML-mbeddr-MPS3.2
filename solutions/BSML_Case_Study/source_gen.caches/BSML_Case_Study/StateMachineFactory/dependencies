@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependenciesRoot>
+  <dependency className="BSML_Case_Study.StateMachineFactory.Makefile" file="Makefile" />
+  <dependency className="BSML_Case_Study.StateMachineFactory.StateMachineFactoryImpl" file="StateMachineFactoryImpl.c" />
+  <dependency className="BSML_Case_Study.StateMachineFactory.StateMachineFactoryImpl" file="StateMachineFactoryImpl.h" />
+</dependenciesRoot>
+

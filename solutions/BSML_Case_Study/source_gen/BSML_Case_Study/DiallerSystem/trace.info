@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info>
+  <concept fqn="com.mbeddr.core.expressions.structure.AssignmentExpr" />
+  <concept fqn="com.mbeddr.core.expressions.structure.CastExpression" />
+  <concept fqn="com.mbeddr.core.expressions.structure.DirectDivAssignmentExpression" />
+  <concept fqn="com.mbeddr.core.expressions.structure.FalseLiteral" />
+  <concept fqn="com.mbeddr.core.expressions.structure.ModuloExpression" />
+  <concept fqn="com.mbeddr.core.expressions.structure.NotEqualsExpression" />
+  <concept fqn="com.mbeddr.core.expressions.structure.NumberLiteral" />
+  <concept fqn="com.mbeddr.core.expressions.structure.ParensExpression" />
+  <concept fqn="com.mbeddr.core.expressions.structure.PostDecrementExpression" />
+  <concept fqn="com.mbeddr.core.expressions.structure.PostIncrementExpression" />
+  <concept fqn="com.mbeddr.core.expressions.structure.TrueLiteral" />
+  <concept fqn="com.mbeddr.core.modules.structure.ArgumentRef" />
+  <concept fqn="com.mbeddr.core.modules.structure.Function" />
+  <concept fqn="com.mbeddr.core.modules.structure.FunctionCall" />
+  <concept fqn="com.mbeddr.core.modules.structure.FunctionPrototype" />
+  <concept fqn="com.mbeddr.core.modules.structure.GlobalVarRef" />
+  <concept fqn="com.mbeddr.core.modules.structure.GlobalVariableDeclaration" />
+  <concept fqn="com.mbeddr.core.modules.structure.ReturnStatement" />
+  <concept fqn="com.mbeddr.core.pointers.structure.NullExpression" />
+  <concept fqn="com.mbeddr.core.pointers.structure.ReferenceExpr" />
+  <concept fqn="com.mbeddr.core.pointers.structure.StringLiteral" />
+  <concept fqn="com.mbeddr.core.statements.structure.ArbitraryTextExpression" />
+  <concept fqn="com.mbeddr.core.statements.structure.CommentStatement" />
+  <concept fqn="com.mbeddr.core.statements.structure.ExpressionStatement" />
+  <concept fqn="com.mbeddr.core.statements.structure.LocalVarRef" />
+  <concept fqn="com.mbeddr.core.statements.structure.LocalVariableDeclaration" />
+  <concept fqn="com.mbeddr.core.statements.structure.Statement" />
+  <concept fqn="com.mbeddr.core.statements.structure.StatementList" />
+  <concept fqn="com.mbeddr.core.statements.structure.WhileStatement" />
+  <root nodeRef="r:981056cd-b552-4d53-81ef-e7aaecb64180(BSML_Case_Study.DiallerSystem)/5336752275647636836">
+    <file name="DiallerSystemImpl.c">
+      <node id="5336752275647741756" at="13,0,13,0" concept="26" />
+      <node id="5336752275647636836" at="43,2,43,47" concept="21" />
+      <node id="5336752275647636836" at="43,2,43,48" concept="23" />
+      <node id="5336752275647636836" at="44,2,44,42" concept="21" />
+      <node id="5336752275647636836" at="44,2,44,43" concept="23" />
+      <node id="5336752275647636836" at="44,20,44,41" concept="7" />
+      <node id="5336752275647636836" at="44,21,44,40" concept="1" />
+      <node id="5336752275647636836" at="44,33,44,38" concept="11" />
+      <node id="5336752275647636836" at="45,2,45,35" concept="21" />
+      <node id="5336752275647636836" at="45,2,45,36" concept="23" />
+      <node id="5336752275647636836" at="45,30,45,33" concept="11" />
+      <node id="5336752275647659487" at="50,2,50,163" concept="13" />
+      <node id="5336752275647659487" at="50,2,50,164" concept="23" />
+      <node id="5336752275647659495" at="50,38,50,39" concept="11" />
+      <node id="5336752275647659487" at="50,41,50,162" concept="20" />
+      <node id="5336752275647724663" at="56,2,56,52" concept="25" />
+      <node id="5336752275647728832" at="56,16,56,51" concept="13" />
+      <node id="5336752275647728857" at="56,48,56,50" concept="11" />
+      <node id="5336752275647728975" at="57,9,57,12" concept="24" />
+      <node id="5336752275647731044" at="57,9,57,14" concept="8" />
+      <node id="5336752275647731043" at="57,9,57,23" concept="5" />
+      <node id="5336752275647730061" at="57,18,57,23" concept="11" />
+      <node id="5336752275647731532" at="59,4,59,6" concept="11" />
+      <node id="5336752275647731544" at="59,4,59,12" concept="2" />
+      <node id="5336752275647731533" at="59,4,59,13" concept="23" />
+      <node id="5336752275647731556" at="59,10,59,12" concept="6" />
+      <node id="5336752275647732169" at="61,2,61,33" concept="17" />
+      <node id="5336752275647732204" at="61,9,61,32" concept="1" />
+      <node id="5336752275647732205" at="61,21,61,30" concept="7" />
+      <node id="5336752275647732254" at="61,22,61,24" concept="11" />
+      <node id="5336752275647732263" at="61,22,61,29" concept="4" />
+      <node id="5336752275647732268" at="61,27,61,29" concept="6" />
+      <node id="5336752275647725313" at="66,2,66,18" concept="25" />
+      <node id="5336752275647725363" at="66,16,66,17" concept="6" />
+      <node id="5336752275647725555" at="67,9,67,19" concept="7" />
+      <node id="5336752275647728210" at="67,9,67,24" concept="5" />
+      <node id="5336752275647725585" at="67,10,67,12" concept="11" />
+      <node id="5336752275647725603" at="67,10,67,18" concept="2" />
+      <node id="5336752275647725623" at="67,16,67,18" concept="6" />
+      <node id="5336752275647728251" at="67,23,67,24" concept="6" />
+      <node id="5336752275647728631" at="69,4,69,7" concept="24" />
+      <node id="5336752275647728643" at="69,4,69,9" concept="9" />
+      <node id="5336752275647728632" at="69,4,69,10" concept="23" />
+      <node id="5336752275647728753" at="71,2,71,13" concept="17" />
+      <node id="5336752275647728795" at="71,9,71,12" concept="24" />
+      <node id="5336752275647739605" at="76,2,76,45" concept="13" />
+      <node id="5336752275647739607" at="76,2,76,46" concept="23" />
+      <node id="5336752275647739626" at="76,15,76,44" concept="19" />
+      <node id="5336752275647739658" at="76,16,76,44" concept="15" />
+      <node id="5336752275647739806" at="77,2,77,41" concept="25" />
+      <node id="5336752275647740046" at="77,13,77,40" concept="15" />
+      <node id="5336752275647740202" at="78,2,78,47" concept="13" />
+      <node id="5336752275647740204" at="78,2,78,48" concept="23" />
+      <node id="5336752275647740289" at="78,17,78,46" concept="19" />
+      <node id="5336752275647740380" at="78,18,78,46" concept="15" />
+      <node id="5336752275647740579" at="79,2,79,13" concept="17" />
+      <node id="5336752275647740726" at="79,9,79,12" concept="24" />
+      <node id="5336752275648150284" at="84,2,84,21" concept="25" />
+      <node id="5336752275648150382" at="84,16,84,20" concept="18" />
+      <node id="5336752275648159539" at="85,2,85,2" concept="26" />
+      <node id="5336752275648176077" at="86,2,86,2" concept="26" />
+      <node id="5336752275648176201" at="87,2,87,2" concept="26" />
+      <node id="5336752275648176335" at="88,2,88,2" concept="26" />
+      <node id="5336752275648176479" at="89,2,89,2" concept="26" />
+      <node id="5336752275648176603" at="90,2,90,2" concept="26" />
+      <node id="5336752275648176765" at="91,2,91,2" concept="26" />
+      <node id="5336752275648176898" at="92,2,92,2" concept="26" />
+      <node id="5336752275648177078" at="93,2,93,2" concept="26" />
+      <node id="5336752275648177268" at="94,2,94,2" concept="26" />
+      <node id="5336752275648177164" at="100,2,100,2" concept="26" />
+      <node id="5336752275648209566" at="101,2,101,2" concept="26" />
+      <node id="5336752275648209570" at="102,2,102,2" concept="26" />
+      <node id="5336752275648209574" at="103,2,103,2" concept="26" />
+      <node id="5336752275648209578" at="104,2,104,2" concept="26" />
+      <node id="5336752275648209582" at="105,2,105,2" concept="26" />
+      <node id="5336752275648209586" at="106,2,106,2" concept="26" />
+      <node id="5336752275648209590" at="107,2,107,2" concept="26" />
+      <node id="5336752275648209594" at="108,2,108,2" concept="26" />
+      <node id="5336752275648209598" at="109,2,109,2" concept="26" />
+      <node id="5336752275648209602" at="110,2,110,2" concept="26" />
+      <node id="5336752275648213569" at="111,2,111,2" concept="26" />
+      <node id="5336752275648223585" at="116,2,116,21" concept="25" />
+      <node id="5336752275648223588" at="116,16,116,20" concept="18" />
+      <node id="5336752275648223589" at="117,2,117,2" concept="26" />
+      <node id="5336752275648223593" at="118,2,118,2" concept="26" />
+      <node id="5336752275648223597" at="119,2,119,2" concept="26" />
+      <node id="5336752275648223601" at="120,2,120,2" concept="26" />
+      <node id="5336752275648223605" at="121,2,121,2" concept="26" />
+      <node id="5336752275648223609" at="122,2,122,2" concept="26" />
+      <node id="5336752275648223613" at="123,2,123,2" concept="26" />
+      <node id="5336752275648223617" at="124,2,124,2" concept="26" />
+      <node id="5336752275648223621" at="125,2,125,2" concept="26" />
+      <node id="5336752275648223625" at="126,2,126,2" concept="26" />
+      <node id="5336752275648224481" at="127,2,127,2" concept="26" />
+      <node id="5336752275648230145" at="128,2,128,2" concept="26" />
+      <node id="5336752275648233456" at="129,2,129,2" concept="26" />
+      <node id="5336752275648256213" at="134,2,134,29" concept="15" />
+      <node id="5336752275648256226" at="134,2,134,37" concept="0" />
+      <node id="5336752275648256215" at="134,2,134,38" concept="23" />
+      <node id="5336752275648256250" at="134,32,134,37" concept="3" />
+      <node id="5336752275648256319" at="135,2,135,21" concept="25" />
+      <node id="5336752275648256322" at="135,16,135,20" concept="18" />
+      <node id="5336752275648256323" at="136,2,136,2" concept="26" />
+      <node id="5336752275648256327" at="137,2,137,2" concept="26" />
+      <node id="5336752275648256331" at="138,2,138,2" concept="26" />
+      <node id="5336752275648256335" at="139,2,139,2" concept="26" />
+      <node id="5336752275648256339" at="140,2,140,2" concept="26" />
+      <node id="5336752275648256343" at="141,2,141,2" concept="26" />
+      <node id="5336752275648256347" at="142,2,142,2" concept="26" />
+      <node id="5336752275648256351" at="143,2,143,2" concept="26" />
+      <node id="5336752275648256355" at="144,2,144,2" concept="26" />
+      <node id="5336752275648257153" at="145,2,145,10" concept="13" />
+      <node id="5336752275648257155" at="145,2,145,11" concept="23" />
+      <node id="5336752275648257210" at="145,8,145,9" concept="6" />
+      <node id="5336752275648257418" at="146,2,146,45" concept="13" />
+      <node id="5336752275648257420" at="146,2,146,46" concept="23" />
+      <node id="5336752275648257478" at="146,15,146,44" concept="19" />
+      <node id="5336752275648257502" at="146,16,146,44" concept="15" />
+      <node id="5336752275648257594" at="147,2,147,29" concept="15" />
+      <node id="5336752275648257658" at="147,2,147,36" concept="0" />
+      <node id="5336752275648257596" at="147,2,147,37" concept="23" />
+      <node id="5336752275648257679" at="147,32,147,36" concept="10" />
+      <node id="5336752275648257808" at="148,2,148,47" concept="13" />
+      <node id="5336752275648257810" at="148,2,148,48" concept="23" />
+      <node id="5336752275648257876" at="148,17,148,46" concept="19" />
+      <node id="5336752275648257900" at="148,18,148,46" concept="15" />
+      <node id="5336752275648257997" at="149,2,149,2" concept="26" />
+      <node id="5336752275648258221" at="150,2,150,2" concept="26" />
+      <node id="5336752275648266986" at="160,2,160,32" concept="13" />
+      <node id="5336752275648266988" at="160,2,160,33" concept="23" />
+      <node id="5336752275648262654" at="161,2,161,11" concept="17" />
+      <node id="5336752275648262655" at="161,9,161,10" concept="6" />
+      <node id="5336752275647636836" at="14,0,15,0" concept="14" trace="BSML_Case_Study.DiallerSystem.mgs_number_dialed" />
+      <node id="5336752275647636836" at="16,0,17,0" concept="14" trace="BSML_Case_Study.DiallerSystem.handle_dial" />
+      <node id="5336752275647636836" at="18,0,19,0" concept="14" trace="BSML_Case_Study.DiallerSystem.digit" />
+      <node id="5336752275647636836" at="20,0,21,0" concept="14" trace="BSML_Case_Study.DiallerSystem.num_of_digits" />
+      <node id="5336752275647636836" at="22,0,23,0" concept="14" trace="BSML_Case_Study.DiallerSystem.limit" />
+      <node id="5336752275647636836" at="24,0,25,0" concept="14" trace="BSML_Case_Study.DiallerSystem.test_dial" />
+      <node id="5336752275647636836" at="26,0,27,0" concept="14" trace="BSML_Case_Study.DiallerSystem.test_redial" />
+      <node id="5336752275647636836" at="28,0,29,0" concept="14" trace="BSML_Case_Study.DiallerSystem.test_limit" />
+      <node id="5336752275647734988" at="30,0,31,0" concept="16" />
+      <node id="5336752275647736518" at="32,0,33,0" concept="16" />
+      <node id="5336752275647659487" at="50,2,51,2" concept="27" />
+      <node id="5336752275647728920" at="58,2,60,3" concept="27" />
+      <node id="5336752275647725449" at="68,2,70,3" concept="27" />
+      <node id="5336752275647636836" at="39,2,42,0" concept="22" />
+      <node id="5336752275647659437" at="49,0,52,1" concept="27" />
+      <node id="5336752275647728919" at="57,2,60,3" concept="28" />
+      <node id="5336752275647725448" at="67,2,70,3" concept="28" />
+      <node id="5336752275648262646" at="159,0,162,1" concept="27" />
+      <node id="5336752275648201255" at="95,2,99,0" concept="22" />
+      <node id="5336752275648258377" at="151,2,155,0" concept="22" />
+      <node id="5336752275647659435" at="48,0,53,0" concept="12" trace="DiallerSystemImpl_handle_dial" />
+      <node id="5336752275647738863" at="75,0,80,1" concept="27" />
+      <node id="5336752275648262644" at="158,0,163,0" concept="12" trace="main" />
+      <node id="5336752275647659550" at="55,0,62,1" concept="27" />
+      <node id="5336752275647725175" at="65,0,72,1" concept="27" />
+      <node id="5336752275647738861" at="74,0,81,0" concept="12" trace="DiallerSystemImpl_limit" />
+      <node id="5336752275647636836" at="38,0,46,1" concept="27" />
+      <node id="5336752275647659548" at="54,0,63,0" concept="12" trace="DiallerSystemImpl_digit" />
+      <node id="5336752275647725173" at="64,0,73,0" concept="12" trace="DiallerSystemImpl_num_of_digits" />
+      <node id="5336752275647636836" at="37,0,47,0" concept="12" trace="DiallerSystemImpl_mgs_number_dialed" />
+      <node id="5336752275648220241" at="115,0,130,1" concept="27" />
+      <node id="5336752275648220239" at="114,0,131,0" concept="12" trace="DiallerSystemImpl_test_redial" />
+      <node id="5336752275648241157" at="133,0,156,1" concept="27" />
+      <node id="5336752275648241155" at="132,0,157,0" concept="12" trace="DiallerSystemImpl_test_limit" />
+      <node id="5336752275648147758" at="83,0,112,1" concept="27" />
+      <node id="5336752275648147756" at="82,0,113,0" concept="12" trace="DiallerSystemImpl_test_dial" />
+      <unit id="5336752275647636836" at="1,0,164,0" name="BSML_Case_Study.DiallerSystem.DiallerSystemImpl" />
+    </file>
+    <file name="DiallerSystemImpl.h">
+      <node id="5336752275647636836" at="17,0,18,0" concept="14" trace="BSML_Case_Study.DiallerSystem.main" />
+    </file>
+  </root>
+</debug-info>
+

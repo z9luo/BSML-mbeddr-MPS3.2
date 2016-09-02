@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info>
+  <concept fqn="com.mbeddr.core.expressions.structure.NumberLiteral" />
+  <concept fqn="com.mbeddr.core.modules.structure.Function" />
+  <concept fqn="com.mbeddr.core.modules.structure.FunctionCall" />
+  <concept fqn="com.mbeddr.core.modules.structure.FunctionPrototype" />
+  <concept fqn="com.mbeddr.core.modules.structure.GlobalVarRef" />
+  <concept fqn="com.mbeddr.core.modules.structure.GlobalVariableDeclaration" />
+  <concept fqn="com.mbeddr.core.modules.structure.ReturnStatement" />
+  <concept fqn="com.mbeddr.core.pointers.structure.NullExpression" />
+  <concept fqn="com.mbeddr.core.pointers.structure.ReferenceExpr" />
+  <concept fqn="com.mbeddr.core.statements.structure.ExpressionStatement" />
+  <concept fqn="com.mbeddr.core.statements.structure.LocalVariableDeclaration" />
+  <concept fqn="com.mbeddr.core.statements.structure.Statement" />
+  <concept fqn="com.mbeddr.core.statements.structure.StatementList" />
+  <root nodeRef="r:256213ee-942f-4b57-8e84-31c8d950e9b6(BSML_Case_Study.StateMachineFactory)/5336752275648267220">
+    <file name="StateMachineFactoryImpl.c">
+      <node id="5336752275648267811" at="12,0,12,0" concept="11" />
+      <node id="5336752275648321805" at="13,0,13,0" concept="11" />
+      <node id="5336752275648268855" at="14,0,14,0" concept="11" />
+      <node id="5336752275648341351" at="19,2,19,21" concept="10" />
+      <node id="5336752275648341953" at="19,16,19,20" concept="7" />
+      <node id="5336752275648342425" at="20,2,20,21" concept="10" />
+      <node id="5336752275648343416" at="21,2,21,20" concept="10" />
+      <node id="5336752275648344725" at="22,2,22,46" concept="2" />
+      <node id="5336752275648344727" at="22,2,22,47" concept="9" />
+      <node id="5336752275648344849" at="22,15,22,45" concept="8" />
+      <node id="5336752275648344980" at="22,16,22,45" concept="4" />
+      <node id="5336752275648345156" at="23,2,23,2" concept="11" />
+      <node id="5336752275648346104" at="24,2,24,46" concept="2" />
+      <node id="5336752275648346106" at="24,2,24,47" concept="9" />
+      <node id="5336752275648346240" at="24,15,24,45" concept="8" />
+      <node id="5336752275648346371" at="24,16,24,45" concept="4" />
+      <node id="5336752275648346536" at="25,2,25,2" concept="11" />
+      <node id="5336752275648379919" at="26,2,26,2" concept="11" />
+      <node id="5336752275648267295" at="27,2,27,11" concept="6" />
+      <node id="5336752275648267296" at="27,9,27,10" concept="0" />
+      <node id="5336752275648267527" at="15,0,16,0" concept="5" />
+      <node id="5336752275648267287" at="18,0,28,1" concept="12" />
+      <node id="5336752275648267285" at="17,0,29,0" concept="1" trace="main" />
+      <unit id="5336752275648267220" at="1,0,30,0" name="BSML_Case_Study.StateMachineFactory.StateMachineFactoryImpl" />
+    </file>
+    <file name="StateMachineFactoryImpl.h">
+      <node id="5336752275648267220" at="17,0,18,0" concept="3" trace="BSML_Case_Study.StateMachineFactory.main" />
+    </file>
+  </root>
+</debug-info>
+

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependenciesRoot>
+  <dependency className="BSML.generator.template.main.QueriesGenerated" file="QueriesGenerated.java">
+    <classNode dependClassName="BSML.behavior.BSMLHelper" />
+    <classNode dependClassName="BSML.behavior.IEvent__BehaviorDescriptor" />
+    <classNode dependClassName="BSML.behavior.IRegion__BehaviorDescriptor" />
+    <classNode dependClassName="BSML.behavior.ISMElementScopeProvider__BehaviorDescriptor" />
+    <classNode dependClassName="BSML.behavior.ISMNamedElement__BehaviorDescriptor" />
+    <classNode dependClassName="BSML.behavior.IState__BehaviorDescriptor" />
+    <classNode dependClassName="BSML.behavior.ITransition__BehaviorDescriptor" />
+    <classNode dependClassName="com.mbeddr.core.base.behavior.IConfigurationContainer__BehaviorDescriptor" />
+    <classNode dependClassName="com.mbeddr.core.base.behavior.IIdentifierNamedConcept__BehaviorDescriptor" />
+    <classNode dependClassName="com.mbeddr.core.base.behavior.IVisibleElementProvider__BehaviorDescriptor" />
+    <classNode dependClassName="com.mbeddr.core.buildconfig.behavior.BCHelper" />
+    <classNode dependClassName="com.mbeddr.core.expressions.behavior.IAssignmentLike__BehaviorDescriptor" />
+    <classNode dependClassName="com.mbeddr.core.modules.behavior.ICallLike__BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Integer" />
+    <classNode dependClassName="java.lang.Iterable" />
+    <classNode dependClassName="java.lang.Object" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.ArrayList" />
+    <classNode dependClassName="java.util.Collections" />
+    <classNode dependClassName="java.util.List" />
+    <classNode dependClassName="jetbrains.mps.baseLanguage.closures.runtime.Wrappers" />
+    <classNode dependClassName="jetbrains.mps.generator.runtime.Generated" />
+    <classNode dependClassName="jetbrains.mps.generator.template.BaseMappingRuleContext" />
+    <classNode dependClassName="jetbrains.mps.generator.template.IfMacroContext" />
+    <classNode dependClassName="jetbrains.mps.generator.template.MapSrcMacroPostProcContext" />
+    <classNode dependClassName="jetbrains.mps.generator.template.MappingScriptContext" />
+    <classNode dependClassName="jetbrains.mps.generator.template.PropertyMacroContext" />
+    <classNode dependClassName="jetbrains.mps.generator.template.ReferenceMacroContext" />
+    <classNode dependClassName="jetbrains.mps.generator.template.SourceSubstituteMacroNodeContext" />
+    <classNode dependClassName="jetbrains.mps.generator.template.SourceSubstituteMacroNodesContext" />
+    <classNode dependClassName="jetbrains.mps.generator.template.TemplateQueryContext" />
+    <classNode dependClassName="jetbrains.mps.generator.template.WeavingMappingRuleContext" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ISelector" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.IVisitor" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.IWhereFilter" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.Sequence" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
+    <classNode dependClassName="jetbrains.mps.smodel.action.SNodeFactoryOperations" />
+    <classNode dependClassName="jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory" />
+    <classNode dependClassName="jetbrains.mps.typesystem.inference.TypeChecker" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.language.SAbstractConcept" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+  </dependency>
+</dependenciesRoot>
+

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependenciesRoot>
+  <dependency className="BSML_Case_Study.DiallerSystem.DiallerSystemImpl" file="DiallerSystemImpl.c" />
+  <dependency className="BSML_Case_Study.DiallerSystem.DiallerSystemImpl" file="DiallerSystemImpl.h" />
+  <dependency className="BSML_Case_Study.DiallerSystem.Makefile" file="Makefile" />
+</dependenciesRoot>
+

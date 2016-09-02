@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependenciesRoot>
+  <dependency className="BSML.structure.BigStepMaximalityEnum" file="BigStepMaximalityEnum.java">
+    <classNode dependClassName="java.lang.Integer" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.LinkedList" />
+    <classNode dependClassName="java.util.List" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
+  </dependency>
+  <dependency className="BSML.structure.BigStepMaximalityEnum_PropertySupport" file="BigStepMaximalityEnum_PropertySupport.java">
+    <classNode dependClassName="BSML.structure.BigStepMaximalityEnum" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.Iterator" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
+    <classNode extendsClassName="jetbrains.mps.smodel.PropertySupport" />
+  </dependency>
+  <dependency className="BSML.structure.ConcurrencyEnum" file="ConcurrencyEnum.java">
+    <classNode dependClassName="java.lang.Integer" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.LinkedList" />
+    <classNode dependClassName="java.util.List" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
+  </dependency>
+  <dependency className="BSML.structure.ConcurrencyEnum_PropertySupport" file="ConcurrencyEnum_PropertySupport.java">
+    <classNode dependClassName="BSML.structure.ConcurrencyEnum" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.Iterator" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
+    <classNode extendsClassName="jetbrains.mps.smodel.PropertySupport" />
+  </dependency>
+  <dependency className="BSML.structure.EventLifelineEnum" file="EventLifelineEnum.java">
+    <classNode dependClassName="java.lang.Integer" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.LinkedList" />
+    <classNode dependClassName="java.util.List" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
+  </dependency>
+  <dependency className="BSML.structure.EventLifelineEnum_PropertySupport" file="EventLifelineEnum_PropertySupport.java">
+    <classNode dependClassName="BSML.structure.EventLifelineEnum" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.Iterator" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
+    <classNode extendsClassName="jetbrains.mps.smodel.PropertySupport" />
+  </dependency>
+  <dependency className="BSML.structure.HierPriorityRegionEnum" file="HierPriorityRegionEnum.java">
+    <classNode dependClassName="java.lang.Integer" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.LinkedList" />
+    <classNode dependClassName="java.util.List" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
+  </dependency>
+  <dependency className="BSML.structure.HierPriorityRegionEnum_PropertySupport" file="HierPriorityRegionEnum_PropertySupport.java">
+    <classNode dependClassName="BSML.structure.HierPriorityRegionEnum" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.Iterator" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
+    <classNode extendsClassName="jetbrains.mps.smodel.PropertySupport" />
+  </dependency>
+  <dependency className="BSML.structure.HierPrioritySchemeEnum" file="HierPrioritySchemeEnum.java">
+    <classNode dependClassName="java.lang.Integer" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.LinkedList" />
+    <classNode dependClassName="java.util.List" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
+  </dependency>
+  <dependency className="BSML.structure.HierPrioritySchemeEnum_PropertySupport" file="HierPrioritySchemeEnum_PropertySupport.java">
+    <classNode dependClassName="BSML.structure.HierPrioritySchemeEnum" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.Iterator" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
+    <classNode extendsClassName="jetbrains.mps.smodel.PropertySupport" />
+  </dependency>
+  <dependency className="BSML.structure.InEventEnum" file="InEventEnum.java">
+    <classNode dependClassName="java.lang.Integer" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.LinkedList" />
+    <classNode dependClassName="java.util.List" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
+  </dependency>
+  <dependency className="BSML.structure.InEventEnum_PropertySupport" file="InEventEnum_PropertySupport.java">
+    <classNode dependClassName="BSML.structure.InEventEnum" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.Iterator" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
+    <classNode extendsClassName="jetbrains.mps.smodel.PropertySupport" />
+  </dependency>
+  <dependency className="BSML.structure.MemoryProtocolEnum" file="MemoryProtocolEnum.java">
+    <classNode dependClassName="java.lang.Integer" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.LinkedList" />
+    <classNode dependClassName="java.util.List" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
+  </dependency>
+  <dependency className="BSML.structure.MemoryProtocolEnum_PropertySupport" file="MemoryProtocolEnum_PropertySupport.java">
+    <classNode dependClassName="BSML.structure.MemoryProtocolEnum" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.Iterator" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
+    <classNode extendsClassName="jetbrains.mps.smodel.PropertySupport" />
+  </dependency>
+  <dependency className="BSML.structure.OutEventEnum" file="OutEventEnum.java">
+    <classNode dependClassName="java.lang.Integer" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.LinkedList" />
+    <classNode dependClassName="java.util.List" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
+  </dependency>
+  <dependency className="BSML.structure.OutEventEnum_PropertySupport" file="OutEventEnum_PropertySupport.java">
+    <classNode dependClassName="BSML.structure.OutEventEnum" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.Iterator" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
+    <classNode extendsClassName="jetbrains.mps.smodel.PropertySupport" />
+  </dependency>
+  <dependency className="BSML.structure.PreemptionEnum" file="PreemptionEnum.java">
+    <classNode dependClassName="java.lang.Integer" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.LinkedList" />
+    <classNode dependClassName="java.util.List" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
+  </dependency>
+  <dependency className="BSML.structure.PreemptionEnum_PropertySupport" file="PreemptionEnum_PropertySupport.java">
+    <classNode dependClassName="BSML.structure.PreemptionEnum" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.Iterator" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
+    <classNode extendsClassName="jetbrains.mps.smodel.PropertySupport" />
+  </dependency>
+  <dependency className="BSML.structure.PriorityEnum" file="PriorityEnum.java">
+    <classNode dependClassName="java.lang.Integer" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.LinkedList" />
+    <classNode dependClassName="java.util.List" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
+  </dependency>
+  <dependency className="BSML.structure.PriorityEnum_PropertySupport" file="PriorityEnum_PropertySupport.java">
+    <classNode dependClassName="BSML.structure.PriorityEnum" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.Iterator" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
+    <classNode extendsClassName="jetbrains.mps.smodel.PropertySupport" />
+  </dependency>
+  <dependency className="BSML.structure.SmallStepConsistencyEnum" file="SmallStepConsistencyEnum.java">
+    <classNode dependClassName="java.lang.Integer" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.LinkedList" />
+    <classNode dependClassName="java.util.List" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
+  </dependency>
+  <dependency className="BSML.structure.SmallStepConsistencyEnum_PropertySupport" file="SmallStepConsistencyEnum_PropertySupport.java">
+    <classNode dependClassName="BSML.structure.SmallStepConsistencyEnum" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.Iterator" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
+    <classNode extendsClassName="jetbrains.mps.smodel.PropertySupport" />
+  </dependency>
+  <dependency className="BSML.structure.StructureAspectDescriptor" file="StructureAspectDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.Arrays" />
+    <classNode dependClassName="java.util.Collection" />
+    <classNode dependClassName="jetbrains.mps.smodel.adapter.ids.MetaIdFactory" />
+    <classNode dependClassName="jetbrains.mps.smodel.runtime.ConceptDescriptor" />
+    <classNode dependClassName="jetbrains.mps.smodel.runtime.impl.ConceptDescriptorBuilder" />
+    <classNode dependClassName="org.jetbrains.annotations.Nullable" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.BaseStructureAspectDescriptor" />
+  </dependency>
+</dependenciesRoot>
+
