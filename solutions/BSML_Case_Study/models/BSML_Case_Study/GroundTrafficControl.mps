@@ -46,8 +46,18 @@
       </concept>
     </language>
     <language id="2d7fadf5-33f6-4e80-a78f-0f739add2bde" name="com.mbeddr.core.buildconfig">
+      <concept id="5046689135693761556" name="com.mbeddr.core.buildconfig.structure.Binary" flags="ng" index="2eOfOj">
+        <child id="5046689135693761559" name="referencedModules" index="2eOfOg" />
+      </concept>
+      <concept id="5046689135693761554" name="com.mbeddr.core.buildconfig.structure.Executable" flags="ng" index="2eOfOl">
+        <property id="3431613015799084476" name="isTest" index="iO3LB" />
+      </concept>
       <concept id="7717755763392524104" name="com.mbeddr.core.buildconfig.structure.BuildConfiguration" flags="ng" index="2v9HqL">
+        <child id="5046689135694070731" name="binaries" index="2ePNbc" />
         <child id="5323740605968447026" name="target" index="2AWWZH" />
+      </concept>
+      <concept id="7717755763392524107" name="com.mbeddr.core.buildconfig.structure.ModuleRef" flags="ng" index="2v9HqM">
+        <reference id="7717755763392524108" name="module" index="2v9HqP" />
       </concept>
       <concept id="5323740605968447022" name="com.mbeddr.core.buildconfig.structure.DesktopPlatform" flags="ng" index="2AWWZL">
         <property id="5323740605968447025" name="compilerOptions" index="2AWWZI" />
@@ -274,6 +284,34 @@
     </language>
   </registry>
   <node concept="2v9HqL" id="4CfWYHshRQz">
+    <node concept="2eOfOl" id="4brkDnkUGs1" role="2ePNbc">
+      <property role="iO3LB" value="false" />
+      <property role="TrG5h" value="GTC_exec" />
+      <node concept="2v9HqM" id="4brkDnkUGs4" role="2eOfOg">
+        <ref role="2v9HqP" node="4CfWYHshRQQ" resolve="GroundTrafficControlImpl" />
+      </node>
+      <node concept="2v9HqM" id="4brkDnkUGs9" role="2eOfOg">
+        <ref role="2v9HqP" to="h3cf:4CfWYHsf2rq" resolve="Generator_Header" />
+      </node>
+      <node concept="2v9HqM" id="4brkDnkUGsh" role="2eOfOg">
+        <ref role="2v9HqP" to="h3cf:4CfWYHsf2rL" resolve="glib_stub" />
+      </node>
+      <node concept="2v9HqM" id="4brkDnkUGsr" role="2eOfOg">
+        <ref role="2v9HqP" to="h3cf:4CfWYHsf2VG" resolve="stdlib_stub" />
+      </node>
+      <node concept="2v9HqM" id="4brkDnkUGsx" role="2eOfOg">
+        <ref role="2v9HqP" to="ryp7:4CfWYHsf2qd" resolve="BSML_stub" />
+      </node>
+      <node concept="2v9HqM" id="4brkDnkUGsy" role="2eOfOg">
+        <ref role="2v9HqP" to="h3cf:4CfWYHsf5jA" resolve="glib_AsyncQueue_stub" />
+      </node>
+      <node concept="2v9HqM" id="4brkDnkUGsz" role="2eOfOg">
+        <ref role="2v9HqP" to="h3cf:4CfWYHsf2rE" resolve="glib_Array_stub" />
+      </node>
+      <node concept="2v9HqM" id="4brkDnkUGs$" role="2eOfOg">
+        <ref role="2v9HqP" to="h3cf:4CfWYHsf775" resolve="glib_Thread_stub" />
+      </node>
+    </node>
     <node concept="2AWWZL" id="4CfWYHshRQS" role="2AWWZH">
       <property role="2AWWZJ" value="gcc" />
       <property role="3r8Kw1" value="gdb" />

@@ -67,7 +67,7 @@ public final class IntentionsDescriptor extends IntentionAspectBase {
         // Concept: FunctionSignature 
         if (myIntentions4 == null) {
           myIntentions4 = new IntentionFactory[1];
-          myIntentions4[0] = new ToggleSMFUnctionAttr_Intention();
+          myIntentions4[0] = new ToggleQueryFUnctionAttr_Intention();
         }
         return Arrays.asList(myIntentions4);
       default:
@@ -86,7 +86,7 @@ public final class IntentionsDescriptor extends IntentionAspectBase {
     rv[4] = new AddEventBinding_Int_Intention();
     rv[5] = new ToggleInEvent_Intention();
     rv[6] = new ToggleRendezvous_Intention();
-    rv[7] = new ToggleSMFUnctionAttr_Intention();
+    rv[7] = new ToggleQueryFUnctionAttr_Intention();
     return Arrays.asList(rv);
   }
 }

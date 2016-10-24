@@ -19,14 +19,14 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.IAttributeDescriptor;
 import jetbrains.mps.smodel.action.SNodeFactoryOperations;
 import jetbrains.mps.intentions.IntentionDescriptor;
 
-public final class ToggleSMFUnctionAttr_Intention extends IntentionDescriptorBase implements IntentionFactory {
+public final class ToggleQueryFUnctionAttr_Intention extends IntentionDescriptorBase implements IntentionFactory {
   private Collection<IntentionExecutable> myCachedExecutable;
-  public ToggleSMFUnctionAttr_Intention() {
+  public ToggleQueryFUnctionAttr_Intention() {
     super(MetaAdapterFactory.getConcept(0x6d11763d483d4b2bL, 0x8efc09336c1b0001L, 0x595522006a5b97ddL, "com.mbeddr.core.modules.structure.FunctionSignature"), IntentionType.NORMAL, false, new SNodePointer("r:acce7372-af49-4f40-8f5f-55dee3cbba21(BSML.intentions)", "5336752275647659641"));
   }
   @Override
   public String getPresentation() {
-    return "ToggleSMFUnctionAttr";
+    return "ToggleQueryFUnctionAttr";
   }
   @Override
   public boolean isApplicable(final SNode node, final EditorContext editorContext) {
@@ -44,7 +44,7 @@ public final class ToggleSMFUnctionAttr_Intention extends IntentionDescriptorBas
   }
   public Collection<IntentionExecutable> instances(final SNode node, final EditorContext context) {
     if (myCachedExecutable == null) {
-      myCachedExecutable = Collections.<IntentionExecutable>singletonList(new ToggleSMFUnctionAttr_Intention.IntentionImplementation());
+      myCachedExecutable = Collections.<IntentionExecutable>singletonList(new ToggleQueryFUnctionAttr_Intention.IntentionImplementation());
     }
     return myCachedExecutable;
   }
@@ -53,7 +53,7 @@ public final class ToggleSMFUnctionAttr_Intention extends IntentionDescriptorBas
     }
     @Override
     public String getDescription(final SNode node, final EditorContext editorContext) {
-      return "Toggle State-Machine Function";
+      return "Toggle IsQuery";
     }
     @Override
     public void execute(final SNode node, final EditorContext editorContext) {
@@ -65,7 +65,7 @@ public final class ToggleSMFUnctionAttr_Intention extends IntentionDescriptorBas
     }
     @Override
     public IntentionDescriptor getDescriptor() {
-      return ToggleSMFUnctionAttr_Intention.this;
+      return ToggleQueryFUnctionAttr_Intention.this;
     }
   }
 }

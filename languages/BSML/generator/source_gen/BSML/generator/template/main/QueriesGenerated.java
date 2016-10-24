@@ -77,6 +77,9 @@ public class QueriesGenerated {
   public static Object propertyMacro_GetPropertyValue_8064397933630563846(final PropertyMacroContext _context) {
     return ListSequence.fromList(SNodeOperations.getNodeDescendants(_context.getNode(), MetaAdapterFactory.getInterfaceConcept(0x181cb8f23d5e4aa9L, 0xb8cd2e496087f7c8L, 0x58d666a5129468c0L, "BSML.structure.IEvent"), false, new SAbstractConcept[]{})).count() + "";
   }
+  public static Object propertyMacro_GetPropertyValue_4817535029898797049(final PropertyMacroContext _context) {
+    return "handle_event_lifeline_" + ISMNamedElement__BehaviorDescriptor.id_id5zmpEki_7Fj.invoke(_context.getNode());
+  }
   public static Object propertyMacro_GetPropertyValue_8064397933631273970(final PropertyMacroContext _context) {
     return (String) IIdentifierNamedConcept__BehaviorDescriptor.qualifiedName_id4JF77iuPCMH.invoke(_context.getNode());
   }
@@ -118,9 +121,6 @@ public class QueriesGenerated {
   }
   public static Object propertyMacro_GetPropertyValue_3695582625797847834(final PropertyMacroContext _context) {
     return "execute_big_step_" + ISMNamedElement__BehaviorDescriptor.id_id5zmpEki_7Fj.invoke(_context.getNode());
-  }
-  public static Object propertyMacro_GetPropertyValue_3695582625804030297(final PropertyMacroContext _context) {
-    return "Big-step Maximality: " + SPropertyOperations.getInteger_def(((SNode) _context.getVariable("semantic_config")), MetaAdapterFactory.getProperty(0x181cb8f23d5e4aa9L, 0xb8cd2e496087f7c8L, 0x58d666a512918588L, 0x58d666a51291858bL, "bigStepMaximality"), "1") + "";
   }
   public static Object propertyMacro_GetPropertyValue_3695582625804200760(final PropertyMacroContext _context) {
     return "sm_start_" + ISMNamedElement__BehaviorDescriptor.id_id5zmpEki_7Fj.invoke(_context.getNode());
@@ -221,6 +221,9 @@ public class QueriesGenerated {
   public static Object propertyMacro_GetPropertyValue_3695582625801422648(final PropertyMacroContext _context) {
     return "init_snapshot_" + ISMNamedElement__BehaviorDescriptor.id_id5zmpEki_7Fj.invoke(_context.getNode());
   }
+  public static Object propertyMacro_GetPropertyValue_9115238831040750858(final PropertyMacroContext _context) {
+    return "sm_msg";
+  }
   public static Object propertyMacro_GetPropertyValue_7757710072518996602(final PropertyMacroContext _context) {
     return SNodeOperations.getIndexInParent(_context.getNode()) + "";
   }
@@ -239,11 +242,20 @@ public class QueriesGenerated {
   public static Object propertyMacro_GetPropertyValue_7757710072519122649(final PropertyMacroContext _context) {
     return ISMNamedElement__BehaviorDescriptor.id_id5zmpEki_7Fj.invoke(_context.getNode()) + "_EventEnum";
   }
+  public static Object propertyMacro_GetPropertyValue_4817535029888536287(final PropertyMacroContext _context) {
+    return (String) ISMNamedElement__BehaviorDescriptor.id_id5zmpEki_7Fj.invoke(_context.getNode());
+  }
   public static Object propertyMacro_GetPropertyValue_7757710072519128748(final PropertyMacroContext _context) {
     return ISMNamedElement__BehaviorDescriptor.id_id5zmpEki_7Fj.invoke(_context.getNode()) + "_StateEnum";
   }
+  public static Object propertyMacro_GetPropertyValue_4817535029888573054(final PropertyMacroContext _context) {
+    return (String) ISMNamedElement__BehaviorDescriptor.id_id5zmpEki_7Fj.invoke(_context.getNode());
+  }
   public static Object propertyMacro_GetPropertyValue_7757710072519159953(final PropertyMacroContext _context) {
     return ISMNamedElement__BehaviorDescriptor.id_id5zmpEki_7Fj.invoke(_context.getNode()) + "_RegionEnum";
+  }
+  public static Object propertyMacro_GetPropertyValue_4817535029888575529(final PropertyMacroContext _context) {
+    return (String) ISMNamedElement__BehaviorDescriptor.id_id5zmpEki_7Fj.invoke(_context.getNode());
   }
   public static Object propertyMacro_GetPropertyValue_7757710072519196346(final PropertyMacroContext _context) {
     return ISMNamedElement__BehaviorDescriptor.id_id5zmpEki_7Fj.invoke(_context.getNode()) + "_TransEnum";
@@ -300,7 +312,7 @@ public class QueriesGenerated {
     return "_CurStateSet_" + ISMNamedElement__BehaviorDescriptor.id_id5zmpEki_7Fj.invoke(_context.getNode());
   }
   public static Object propertyMacro_GetPropertyValue_7757710072519425519(final PropertyMacroContext _context) {
-    return "CurState_Set_" + ISMNamedElement__BehaviorDescriptor.id_id5zmpEki_7Fj.invoke(_context.getNode());
+    return "CurStateSet_" + ISMNamedElement__BehaviorDescriptor.id_id5zmpEki_7Fj.invoke(_context.getNode());
   }
   public static Object propertyMacro_GetPropertyValue_7757710072519454522(final PropertyMacroContext _context) {
     return "create_cur_state_set_" + ISMNamedElement__BehaviorDescriptor.id_id5zmpEki_7Fj.invoke(_context.getNode());
@@ -313,6 +325,15 @@ public class QueriesGenerated {
   }
   public static Object propertyMacro_GetPropertyValue_7757710072519480888(final PropertyMacroContext _context) {
     return ISMNamedElement__BehaviorDescriptor.id_id5zmpEki_7Fj.invoke(_context.getNode()) + "_Transition";
+  }
+  public static Object propertyMacro_GetPropertyValue_4817535029893604944(final PropertyMacroContext _context) {
+    return "create_trans_" + ISMNamedElement__BehaviorDescriptor.id_id5zmpEki_7Fj.invoke(_context.getNode());
+  }
+  public static Object propertyMacro_GetPropertyValue_4817535029896129539(final PropertyMacroContext _context) {
+    return "free_trans_" + ISMNamedElement__BehaviorDescriptor.id_id5zmpEki_7Fj.invoke(_context.getNode());
+  }
+  public static Object propertyMacro_GetPropertyValue_4817535029896166004(final PropertyMacroContext _context) {
+    return "compare_trans_" + ISMNamedElement__BehaviorDescriptor.id_id5zmpEki_7Fj.invoke(_context.getNode());
   }
   public static Object propertyMacro_GetPropertyValue_7757710072521622494(final PropertyMacroContext _context) {
     return SNodeOperations.getIndexInParent(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getReferenceLink(0x6d11763d483d4b2bL, 0x8efc09336c1b0001L, 0x1d0c3765e2e7d0baL, 0x1d0c3765e2e7d0bbL, "arg"))) + "";
@@ -446,7 +467,7 @@ public class QueriesGenerated {
     return (String) ISMNamedElement__BehaviorDescriptor.id_id5zmpEki_7Fj.invoke(_context.getNode());
   }
   public static Object referenceMacro_GetReferent_8064397933631247042(final ReferenceMacroContext _context) {
-    return ISMNamedElement__BehaviorDescriptor.id_id5zmpEki_7Fj.invoke(_context.getNode()) + "_Transition";
+    return ISMNamedElement__BehaviorDescriptor.id_id5zmpEki_7Fj.invoke(SNodeOperations.getNodeAncestor(_context.getNode(), MetaAdapterFactory.getInterfaceConcept(0x181cb8f23d5e4aa9L, 0xb8cd2e496087f7c8L, 0x58d666a5129468cdL, "BSML.structure.IStateMachine"), false, false)) + "_Transition";
   }
   public static Object referenceMacro_GetReferent_8064397933631266235(final ReferenceMacroContext _context) {
     return (String) ISMNamedElement__BehaviorDescriptor.id_id5zmpEki_7Fj.invoke(_context.getNode());
@@ -542,9 +563,6 @@ public class QueriesGenerated {
   public static Object referenceMacro_GetReferent_3695582625796090574(final ReferenceMacroContext _context) {
     return ISMNamedElement__BehaviorDescriptor.id_id5zmpEki_7Fj.invoke(_context.getNode()) + "_Transition";
   }
-  public static Object referenceMacro_GetReferent_3695582625796287981(final ReferenceMacroContext _context) {
-    return "sm_msg_" + ISMNamedElement__BehaviorDescriptor.id_id5zmpEki_7Fj.invoke(_context.getNode());
-  }
   public static Object referenceMacro_GetReferent_3695582625796310701(final ReferenceMacroContext _context) {
     return ISMNamedElement__BehaviorDescriptor.id_id5zmpEki_7Fj.invoke(_context.getNode()) + "_smblock";
   }
@@ -563,9 +581,6 @@ public class QueriesGenerated {
   public static Object referenceMacro_GetReferent_3695582625795915199(final ReferenceMacroContext _context) {
     return ISMNamedElement__BehaviorDescriptor.id_id5zmpEki_7Fj.invoke(_context.getNode()) + "_SMStruct";
   }
-  public static Object referenceMacro_GetReferent_3695582625796366178(final ReferenceMacroContext _context) {
-    return "sm_msg_" + ISMNamedElement__BehaviorDescriptor.id_id5zmpEki_7Fj.invoke(_context.getNode());
-  }
   public static Object referenceMacro_GetReferent_3695582625797883638(final ReferenceMacroContext _context) {
     return "big_step_start_block_" + ISMNamedElement__BehaviorDescriptor.id_id5zmpEki_7Fj.invoke(_context.getNode());
   }
@@ -577,12 +592,6 @@ public class QueriesGenerated {
   }
   public static Object referenceMacro_GetReferent_3695582625797940435(final ReferenceMacroContext _context) {
     return "free_trans_" + ISMNamedElement__BehaviorDescriptor.id_id5zmpEki_7Fj.invoke(_context.getNode());
-  }
-  public static Object referenceMacro_GetReferent_3695582625797998475(final ReferenceMacroContext _context) {
-    return "sm_mgs_" + ISMNamedElement__BehaviorDescriptor.id_id5zmpEki_7Fj.invoke(_context.getNode());
-  }
-  public static Object referenceMacro_GetReferent_3695582625798010401(final ReferenceMacroContext _context) {
-    return "sm_mgs_" + ISMNamedElement__BehaviorDescriptor.id_id5zmpEki_7Fj.invoke(_context.getNode());
   }
   public static Object referenceMacro_GetReferent_3695582625798067626(final ReferenceMacroContext _context) {
     return "compare_trans_" + ISMNamedElement__BehaviorDescriptor.id_id5zmpEki_7Fj.invoke(_context.getNode());
@@ -611,9 +620,6 @@ public class QueriesGenerated {
   public static Object referenceMacro_GetReferent_3695582625798498803(final ReferenceMacroContext _context) {
     return ISMNamedElement__BehaviorDescriptor.id_id5zmpEki_7Fj.invoke(_context.getNode()) + "_SMStruct";
   }
-  public static Object referenceMacro_GetReferent_3695582625798523367(final ReferenceMacroContext _context) {
-    return "sm_msg_" + ISMNamedElement__BehaviorDescriptor.id_id5zmpEki_7Fj.invoke(_context.getNode());
-  }
   public static Object referenceMacro_GetReferent_3695582625798528418(final ReferenceMacroContext _context) {
     return "BindingCall";
   }
@@ -628,9 +634,6 @@ public class QueriesGenerated {
   }
   public static Object referenceMacro_GetReferent_3695582625798864794(final ReferenceMacroContext _context) {
     return "reset_pointer_array";
-  }
-  public static Object referenceMacro_GetReferent_3695582625798866055(final ReferenceMacroContext _context) {
-    return "sm_msg_" + ISMNamedElement__BehaviorDescriptor.id_id5zmpEki_7Fj.invoke(_context.getNode());
   }
   public static Object referenceMacro_GetReferent_3695582625804051700(final ReferenceMacroContext _context) {
     return ISMNamedElement__BehaviorDescriptor.id_id5zmpEki_7Fj.invoke(_context.getNode()) + "_SMStruct";
@@ -922,7 +925,7 @@ public class QueriesGenerated {
     return ret.value;
   }
   public static boolean ifMacro_Condition_8064397933631223687(final IfMacroContext _context) {
-    return (boolean) IEvent__BehaviorDescriptor.isRendezvousEvent_id5zmpEki_848.invoke(SLinkOperations.getTarget(((SNode[]) _context.getVariable("triggers_array"))[((Integer) _context.getVariable("cur_index"))], MetaAdapterFactory.getReferenceLink(0x181cb8f23d5e4aa9L, 0xb8cd2e496087f7c8L, 0x58d666a51294688cL, 0x58d666a5129a49e1L, "var")));
+    return ((Integer) _context.getVariable("cur_index")) < ((SNode[]) _context.getVariable("triggers_array")).length && (boolean) IEvent__BehaviorDescriptor.isRendezvousEvent_id5zmpEki_848.invoke(SLinkOperations.getTarget(((SNode[]) _context.getVariable("triggers_array"))[((Integer) _context.getVariable("cur_index"))], MetaAdapterFactory.getReferenceLink(0x181cb8f23d5e4aa9L, 0xb8cd2e496087f7c8L, 0x58d666a51294688cL, 0x58d666a5129a49e1L, "var")));
   }
   public static boolean ifMacro_Condition_8064397933631233668(final IfMacroContext _context) {
     return ((Integer) _context.getVariable("cur_index")) < Sequence.fromIterable(ITransition__BehaviorDescriptor.triggers_id5zmpEki_aFF.invoke(_context.getNode())).count() - 1;
@@ -973,6 +976,18 @@ public class QueriesGenerated {
     return Sequence.fromIterable(SNodeOperations.ofConcept(ISMElementScopeProvider__BehaviorDescriptor.getContainedElements_id5zmpEki_6zG.invoke(_context.getNode()), MetaAdapterFactory.getConcept(0x181cb8f23d5e4aa9L, 0xb8cd2e496087f7c8L, 0x58d666a512946881L, "BSML.structure.EntryBlock"))).isNotEmpty();
   }
   public static boolean ifMacro_Condition_3695582625799126025(final IfMacroContext _context) {
+    return false;
+  }
+  public static boolean ifMacro_Condition_9115238831036979599(final IfMacroContext _context) {
+    return false;
+  }
+  public static boolean ifMacro_Condition_9115238831036979905(final IfMacroContext _context) {
+    return false;
+  }
+  public static boolean ifMacro_Condition_9115238831036980513(final IfMacroContext _context) {
+    return false;
+  }
+  public static boolean ifMacro_Condition_9115238831036981168(final IfMacroContext _context) {
     return false;
   }
   public static boolean ifMacro_Condition_7757710072519137751(final IfMacroContext _context) {

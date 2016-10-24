@@ -46,6 +46,7 @@
         <child id="1088186146602" name="editorComponent" index="1sWHZn" />
       </concept>
       <concept id="1088185857835" name="jetbrains.mps.lang.editor.structure.InlineEditorComponent" flags="ig" index="1sVBvm" />
+      <concept id="1219226236603" name="jetbrains.mps.lang.editor.structure.DrawBracketsStyleClassItem" flags="ln" index="3vyZuw" />
       <concept id="1139848536355" name="jetbrains.mps.lang.editor.structure.CellModel_WithRole" flags="ng" index="1$h60E">
         <property id="1140017977771" name="readOnly" index="1Intyy" />
         <reference id="1140103550593" name="relationDeclaration" index="1NtTu8" />
@@ -396,13 +397,13 @@
               <property role="VOm3f" value="false" />
             </node>
             <node concept="3F0A7n" id="5zmpEki$JXa" role="3EZMnx">
-              <ref role="1NtTu8" to="pz83:5zmpEki$on1" resolve="heirPrioRegion" />
+              <ref role="1NtTu8" to="pz83:5zmpEki$on1" resolve="hierPrioRegion" />
             </node>
             <node concept="3F0ifn" id="5zmpEki$JXi" role="3EZMnx">
               <property role="3F0ifm" value="-" />
             </node>
             <node concept="3F0A7n" id="5zmpEki$JXs" role="3EZMnx">
-              <ref role="1NtTu8" to="pz83:5zmpEki$onc" resolve="heirPrioScheme" />
+              <ref role="1NtTu8" to="pz83:5zmpEki$onc" resolve="hierPrioScheme" />
             </node>
             <node concept="2iRfu4" id="5zmpEki$JWX" role="2iSdaV" />
             <node concept="pkWqt" id="5zmpEki$JXJ" role="pqm2j">
@@ -643,6 +644,7 @@
       </node>
       <node concept="l2Vlx" id="5zmpEki_y4I" role="2iSdaV" />
       <node concept="3F2HdR" id="5zmpEki_Bbf" role="3EZMnx">
+        <property role="2czwfO" value="," />
         <ref role="1NtTu8" to="pz83:5zmpEki_r4C" />
         <node concept="l2Vlx" id="5zmpEki_Bbh" role="2czzBx" />
         <node concept="1HlG4h" id="5zmpEki_Bii" role="2czzBI">
@@ -877,9 +879,13 @@
     <ref role="1XX52x" to="pz83:5zmpEki_6y8" resolve="SMFunctionAttribute" />
     <node concept="3EZMnI" id="5zmpEkiAg3N" role="2wV5jI">
       <node concept="3F0ifn" id="5zmpEkiAg3U" role="3EZMnx">
-        <property role="3F0ifm" value="state-machine function:" />
+        <property role="3F0ifm" value="[isQuery]" />
       </node>
-      <node concept="2SsqMj" id="5zmpEkiAg4h" role="3EZMnx" />
+      <node concept="2SsqMj" id="5zmpEkiAg4h" role="3EZMnx">
+        <node concept="3vyZuw" id="3HF6WEwG_cT" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
       <node concept="2iRkQZ" id="5zmpEkiAg3Q" role="2iSdaV" />
     </node>
   </node>

@@ -10,6 +10,9 @@ import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.nodeEditor.attribute.AttributeKind;
+import jetbrains.mps.openapi.editor.style.Style;
+import jetbrains.mps.editor.runtime.style.StyleImpl;
+import jetbrains.mps.editor.runtime.style.StyleAttributes;
 
 public class SMFunctionAttribute_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
@@ -24,7 +27,7 @@ public class SMFunctionAttribute_Editor extends DefaultNodeEditor {
     return editorCell;
   }
   private EditorCell createConstant_oatsox_a0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "state-machine function:");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "[isQuery]");
     editorCell.setCellId("Constant_oatsox_a0");
     editorCell.setDefaultText("");
     return editorCell;
@@ -32,6 +35,9 @@ public class SMFunctionAttribute_Editor extends DefaultNodeEditor {
   private EditorCell createAttributedNodeCell_oatsox_b0(EditorContext editorContext, SNode node) {
     EditorManager manager = EditorManager.getInstanceFromContext(editorContext);
     EditorCell editorCell = manager.getCurrentAttributedCellWithRole(AttributeKind.Node.class, node);
+    Style style = new StyleImpl();
+    style.set(StyleAttributes.DRAW_BRACKETS, 0, true);
+    editorCell.getStyle().putAll(style);
     return editorCell;
   }
 }

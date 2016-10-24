@@ -15,23 +15,23 @@
     </file>
   </root>
   <root nodeRef="r:acce7372-af49-4f40-8f5f-55dee3cbba21(BSML.intentions)/5336752275647659641">
-    <file name="ToggleSMFUnctionAttr_Intention.java">
+    <file name="ToggleQueryFUnctionAttr_Intention.java">
       <node id="5336752275647659641" at="23,0,24,0" concept="3" trace="myCachedExecutable" />
-      <node id="5336752275647659641" at="24,43,25,288" concept="8" />
-      <node id="5336752275647659641" at="28,35,29,34" concept="7" />
+      <node id="5336752275647659641" at="24,46,25,288" concept="8" />
+      <node id="5336752275647659641" at="28,35,29,37" concept="7" />
       <node id="5336752275647659641" at="33,53,34,19" concept="7" />
       <node id="5336752275647659641" at="35,5,36,16" concept="7" />
       <node id="5336752275647666024" at="38,91,39,208" concept="7" />
       <node id="5336752275647659641" at="42,35,43,17" concept="7" />
-      <node id="5336752275647659641" at="46,37,47,136" concept="2" />
+      <node id="5336752275647659641" at="46,37,47,139" concept="2" />
       <node id="5336752275647659641" at="48,5,49,30" concept="7" />
-      <node id="5336752275647665390" at="55,87,56,45" concept="7" />
+      <node id="5336752275647665390" at="55,87,56,30" concept="7" />
       <node id="5336752275647676387" at="60,231,61,399" concept="2" />
       <node id="5336752275647681304" at="62,14,63,247" concept="2" />
-      <node id="5336752275647659641" at="67,48,68,49" concept="7" />
+      <node id="5336752275647659641" at="67,48,68,52" concept="7" />
       <node id="5336752275647659641" at="52,0,54,0" concept="1" trace="IntentionImplementation#()V" />
       <node id="5336752275647681071" at="62,12,64,7" concept="0" />
-      <node id="5336752275647659641" at="24,0,27,0" concept="1" trace="ToggleSMFUnctionAttr_Intention#()V" />
+      <node id="5336752275647659641" at="24,0,27,0" concept="1" trace="ToggleQueryFUnctionAttr_Intention#()V" />
       <node id="5336752275647659641" at="32,84,35,5" concept="4" />
       <node id="5336752275647659641" at="38,0,41,0" concept="5" trace="isApplicableToNode#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
       <node id="5336752275647659641" at="45,99,48,5" concept="4" />
@@ -44,16 +44,16 @@
       <node id="5336752275647659641" at="31,0,38,0" concept="5" trace="isApplicable#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
       <node id="5336752275647659641" at="58,0,66,0" concept="5" trace="execute#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <scope id="5336752275647659641" at="52,38,52,38" />
-      <scope id="5336752275647659641" at="24,43,25,288" />
-      <scope id="5336752275647659641" at="28,35,29,34" />
+      <scope id="5336752275647659641" at="24,46,25,288" />
+      <scope id="5336752275647659641" at="28,35,29,37" />
       <scope id="5336752275647659641" at="33,53,34,19" />
       <scope id="5336752275647665952" at="38,91,39,208" />
       <scope id="5336752275647659641" at="42,35,43,17" />
-      <scope id="5336752275647659641" at="46,37,47,136" />
-      <scope id="5336752275647659643" at="55,87,56,45" />
+      <scope id="5336752275647659641" at="46,37,47,139" />
+      <scope id="5336752275647659643" at="55,87,56,30" />
       <scope id="5336752275647673839" at="60,231,61,399" />
       <scope id="5336752275647681072" at="62,14,63,247" />
-      <scope id="5336752275647659641" at="67,48,68,49" />
+      <scope id="5336752275647659641" at="67,48,68,52" />
       <scope id="5336752275647659641" at="52,0,54,0" />
       <scope id="5336752275647659641" at="24,0,27,0" />
       <scope id="5336752275647659641" at="38,0,41,0">
@@ -82,8 +82,8 @@
         <var name="editorContext" id="5336752275647659641" />
         <var name="node" id="5336752275647659641" />
       </scope>
-      <unit id="5336752275647659641" at="51,0,71,0" name="BSML.intentions.ToggleSMFUnctionAttr_Intention$IntentionImplementation" />
-      <unit id="5336752275647659641" at="22,0,72,0" name="BSML.intentions.ToggleSMFUnctionAttr_Intention" />
+      <unit id="5336752275647659641" at="51,0,71,0" name="BSML.intentions.ToggleQueryFUnctionAttr_Intention$IntentionImplementation" />
+      <unit id="5336752275647659641" at="22,0,72,0" name="BSML.intentions.ToggleQueryFUnctionAttr_Intention" />
     </file>
   </root>
   <root nodeRef="r:acce7372-af49-4f40-8f5f-55dee3cbba21(BSML.intentions)/6401416779521741574">

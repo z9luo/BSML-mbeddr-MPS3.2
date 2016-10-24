@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dependenciesRoot>
+  <dependency className="BSML_Case_Study.GroundTrafficControl.GroundTrafficControlImpl" file="GroundTrafficControlImpl.c" />
+  <dependency className="BSML_Case_Study.GroundTrafficControl.GroundTrafficControlImpl" file="GroundTrafficControlImpl.h" />
   <dependency className="BSML_Case_Study.GroundTrafficControl.Makefile" file="Makefile" />
 </dependenciesRoot>
 

@@ -701,13 +701,13 @@
   </node>
   <node concept="2S6QgY" id="4CfWYHsf7TT">
     <property role="3GE5qa" value="entities" />
-    <property role="TrG5h" value="ToggleSMFUnctionAttr" />
+    <property role="TrG5h" value="ToggleQueryFUnctionAttr" />
     <ref role="2ZfgGC" to="x27k:5_l8w1EmTvt" resolve="FunctionSignature" />
     <node concept="2S6ZIM" id="4CfWYHsf7TU" role="2ZfVej">
       <node concept="3clFbS" id="4CfWYHsf7TV" role="2VODD2">
         <node concept="3clFbF" id="4CfWYHsf9jI" role="3cqZAp">
           <node concept="Xl_RD" id="4CfWYHsf9jH" role="3clFbG">
-            <property role="Xl_RC" value="Toggle State-Machine Function" />
+            <property role="Xl_RC" value="Toggle IsQuery" />
           </node>
         </node>
       </node>
